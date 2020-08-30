@@ -18,6 +18,7 @@ public class InteractableObject : MonoBehaviour
     public virtual void Interact()
     {
         // This method is meant to be overwritten
+        DisplayText();
     }
 
     private void DisplayText()

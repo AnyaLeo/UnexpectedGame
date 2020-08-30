@@ -36,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
         if (focus != null)
         {
             Debug.Log("Interacting with object " + focus.name);
+            focus.Interact();
         }
     }
 
