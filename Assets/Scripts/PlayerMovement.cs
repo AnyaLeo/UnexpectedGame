@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovement : MonoBehaviour
 {
     /** PUBLIC VARIABLES */
     public CharacterController controller;
     public float movementSpeed = 12f;
-    public float radiusToInteract = 3;
+    public float radiusToInteract = 2f;
+
+    public string prompt;
+
+    public Text promptText;
 
     /** PRIVATE VARIABLES */
     private Camera playerCamera;
@@ -16,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         playerCamera = Camera.main;
+        SetPromptText("");
     }
 
     // Update is called once per frame
@@ -51,7 +57,20 @@ public class PlayerMovement : MonoBehaviour
             InteractableObject interactable =
                 hit.collider.GetComponent<InteractableObject>();
 
-            focus = interactable;
+            // If we hit an interactable, display the prompt
+            if (interactable != null)
+            {
+                focus = interactable;
+                SetPromptText("Press E to interact");
+            }
+            else
+            {
+                SetPromptText("");
+            }
+        }
+        else
+        {
+            SetPromptText("");
         }
     }
 
@@ -68,5 +87,10 @@ public class PlayerMovement : MonoBehaviour
             + transform.forward * forwardDirection;
 
         controller.SimpleMove(movement * movementSpeed);
+    }
+
+    private void SetPromptText(string prompt)
+    {
+        promptText.text = prompt;
     }
 }
