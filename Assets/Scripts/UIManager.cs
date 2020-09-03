@@ -21,20 +21,44 @@ public class UIManager : MonoBehaviour
     void Update()
     {
         // TODO: move the activation of the dialogue to the PlayerController
-        if (Input.GetKeyDown(KeyCode.E))
+        /*if (Input.GetKeyDown(KeyCode.E))
         {
             if (!VD.isActive)
             {
                 Begin();
             }
-        }
+        }*/
 
         if (Input.GetKeyDown(KeyCode.Return))
         {
             if (VD.isActive)
             {
-                VD.Next();
+                //VD.Next();
             }
+        }
+    }
+
+    public void StartDialogueWith(InteractableObject obj)
+    {
+        VIDE_Assign dialogue = obj.GetComponent<VIDE_Assign>();
+
+        if (dialogue != null)
+        {
+            VD.OnNodeChange += UpdateUI;
+            VD.OnEnd += End;
+            VD.BeginDialogue(dialogue);
+        }
+        else
+        {
+            Debug.Log("UIManager, StartDialogueWith: tried to start a dialogue without proper dialogue specified");
+        }
+    }
+
+    public void CallNextNode()
+    {
+        if (VD.isActive)
+        {
+            VD.Next();
         }
     }
 

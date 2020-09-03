@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using VIDE_Data;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
 
     public Text promptText;
 
-    public GameObject UIManager;
+    public UIManager dialogueManager;
 
     /** PRIVATE VARIABLES */
     private Camera playerCamera;
@@ -29,13 +30,25 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movePlayer();
-        findInteractable();
+        // Movement is disallowed when we are talking to something
+        if (!VD.isActive)
+        {
+            movePlayer();
+        }
 
-        // Detect key presses
+        // Deal with interactables
+        // The current interactable will be stored in a variable "focus"
+
+        findInteractable();
         if (Input.GetKeyDown(KeyCode.E))
         {
             interactWithFocus();
+        }
+
+        // To continue dialogue, press return
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            dialogueManager.CallNextNode();
         }
     }
 
@@ -43,8 +56,10 @@ public class PlayerMovement : MonoBehaviour
     {
         if (focus != null)
         {
-            Debug.Log("Interacting with object " + focus.name);
-            focus.Interact();
+            if (!VD.isActive)
+            {
+                dialogueManager.StartDialogueWith(focus);
+            }
         }
     }
 
@@ -67,11 +82,13 @@ public class PlayerMovement : MonoBehaviour
             }
             else
             {
+                focus = null;
                 SetPromptText("");
             }
         }
         else
         {
+            focus = null;
             SetPromptText("");
         }
     }
