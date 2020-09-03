@@ -75,7 +75,8 @@ public class PlayerMovement : MonoBehaviour
                 hit.collider.GetComponent<InteractableObject>();
 
             // If we hit an interactable, display the prompt
-            if (interactable != null)
+            // But only if we are not in the middle of a dialogue
+            if (interactable != null && !VD.isActive)
             {
                 focus = interactable;
                 SetPromptText("Press E to interact");

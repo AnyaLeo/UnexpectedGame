@@ -6,8 +6,10 @@ using VIDE_Data; // to retrieve node data
 
 public class UIManager : MonoBehaviour
 {
+    public GameObject dialogueContainer;
     public GameObject containerNPC;
     public GameObject containerPlayer;
+
     public Text textNPC;
     public Text[] textPlayer;
 
@@ -73,6 +75,7 @@ public class UIManager : MonoBehaviour
     {
         DisableContainers();
 
+        dialogueContainer.SetActive(true);
         if (data.isPlayer)
         {
             containerPlayer.SetActive(true);
@@ -115,6 +118,7 @@ public class UIManager : MonoBehaviour
     {
         containerNPC.SetActive(false);
         containerPlayer.SetActive(false);
+        dialogueContainer.SetActive(false);
     }
 
     private void OnDisable()
