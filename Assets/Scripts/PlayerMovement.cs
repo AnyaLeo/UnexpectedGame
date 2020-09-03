@@ -14,6 +14,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Text promptText;
 
+    public GameObject UIManager;
+
     /** PRIVATE VARIABLES */
     private Camera playerCamera;
     private InteractableObject focus;
