@@ -10,32 +10,53 @@ public class UIManager : MonoBehaviour
     public GameObject containerNPC;
     public GameObject containerPlayer;
 
+    //public Color neutralTextColor;
+    //public Color selectedTextColor = Color.yellow;
+
     public Text textNPC;
     public Text[] textPlayer;
+
+    private int selectedChoiceIndex;
+    private int playerChoiceCount;
 
     // Start is called before the first frame update
     void Start()
     {
         DisableContainers();
+        playerChoiceCount = 0; 
     }
 
     // Update is called once per frame
     void Update()
     {
-        // TODO: move the activation of the dialogue to the PlayerController
-        /*if (Input.GetKeyDown(KeyCode.E))
-        {
-            if (!VD.isActive)
-            {
-                Begin();
-            }
-        }*/
+        var data = VD.nodeData;
 
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (VD.isActive)
         {
-            if (VD.isActive)
+            if (Input.GetKeyDown(KeyCode.DownArrow))
             {
-                //VD.Next();
+                if (data.commentIndex < data.comments.Length - 1)
+                {
+                    textPlayer[selectedChoiceIndex].color = Color.white;
+
+                    data.commentIndex++;
+                    selectedChoiceIndex++;
+
+                    textPlayer[selectedChoiceIndex].color = Color.yellow;
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                if (data.commentIndex > 0)
+                {
+                    textPlayer[selectedChoiceIndex].color = Color.white;
+
+                    data.commentIndex--;
+                    selectedChoiceIndex--;
+
+                    textPlayer[selectedChoiceIndex].color = Color.yellow;
+                }
             }
         }
     }
@@ -79,24 +100,27 @@ public class UIManager : MonoBehaviour
         if (data.isPlayer)
         {
             containerPlayer.SetActive(true);
+            playerChoiceCount = 0;
 
             for (int i = 0; i < textPlayer.Length; i++)
             {
                 // Decide whether we want to show the choice button or no
                 if (i < data.comments.Length)
                 {
-                    textPlayer[i].transform.parent.gameObject.SetActive(true);
+                    textPlayer[i].enabled = true;
                     textPlayer[i].text = data.comments[i];
+                    textPlayer[i].color = Color.white;
+                    playerChoiceCount++;
                 } 
                 else
                 {
-                    textPlayer[i].transform.parent.gameObject.SetActive(false);
+                   textPlayer[i].enabled = false;
                 }
             }
 
             // Select the first choice as the default
-            textPlayer[0].transform.parent.GetComponent<Button>().Select();
-            textPlayer[0].transform.parent.GetComponent<Button>().OnSelect(null);
+            selectedChoiceIndex = 0;
+            textPlayer[selectedChoiceIndex].color = Color.yellow;
         }
         else
         {
