@@ -5512,6 +5512,86 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7a7a8492b5362f429051f051378a457, type: 3}
+--- !u!1 &1527852449 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8c31138eb2b7c6643b2953dfa68e64a7,
+    type: 3}
+  m_PrefabInstance: {fileID: 553330545}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1527852450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527852449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_StartGame
+  - Witch
+  assignedIndex: 14
+  assignedID: 62797
+  assignedDialogue: UG_Ch1_DaemonBeforePlaying
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &1527852451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527852449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: Object
+  Dialogue: Dialogue
+  promptPrefab: {fileID: 0}
+--- !u!65 &1527852452
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527852449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0008446229, y: 0.0070591075, z: 0.009999999}
+  m_Center: {x: 0.0004223111, y: -9.313226e-10, z: 0.0000000018626451}
 --- !u!1001 &1542729248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6589,6 +6669,9 @@ GameObject:
   - component: {fileID: 1904074733}
   - component: {fileID: 1904074732}
   - component: {fileID: 1904074731}
+  - component: {fileID: 1904074736}
+  - component: {fileID: 1904074735}
+  - component: {fileID: 1904074734}
   m_Layer: 0
   m_Name: portraitanimated
   m_TagString: Untagged
@@ -6680,6 +6763,81 @@ Transform:
   m_Father: {fileID: 1049436253}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1904074734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904074730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_StartGame
+  - Witch
+  assignedIndex: 15
+  assignedID: 92710
+  assignedDialogue: UG_Ch1_DaemonPlaying
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &1904074735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904074730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectName: Object
+  Dialogue: Dialogue
+  promptPrefab: {fileID: 0}
+--- !u!65 &1904074736
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904074730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 30.359993, y: 42.99022, z: 0.20000525}
+  m_Center: {x: -0.0000038146973, y: 0.0000076293945, z: 0}
 --- !u!1001 &1947898111
 PrefabInstance:
   m_ObjectHideFlags: 0
