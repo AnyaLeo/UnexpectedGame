@@ -58,7 +58,8 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!VD.isActive)
             {
-                dialogueManager.StartDialogueWith(focus);
+                VIDE_Assign dialogue = focus.GetComponent<VIDE_Assign>();
+                dialogueManager.StartDialogue(dialogue);
             }
         }
     }

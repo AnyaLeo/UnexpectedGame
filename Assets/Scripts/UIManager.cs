@@ -61,10 +61,8 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void StartDialogueWith(InteractableObject obj)
+    public void StartDialogue(VIDE_Assign dialogue)
     {
-        VIDE_Assign dialogue = obj.GetComponent<VIDE_Assign>();
-
         if (dialogue != null)
         {
             VD.OnNodeChange += UpdateUI;
