@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 499464}
   - component: {fileID: 499463}
   - component: {fileID: 499467}
+  - component: {fileID: 499468}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -229,6 +230,73 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupRelyingOnUs: {fileID: 0}
+--- !u!114 &499468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_StartGame
+  - Witch
+  assignedIndex: 14
+  assignedID: 82765
+  assignedDialogue: UG_Ch1_Cards
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!1 &23961909 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4849efef0d2d83c4c98c9ea369f24e52,
+    type: 3}
+  m_PrefabInstance: {fileID: 111351272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &23961910
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23961909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.69, y: 0.04, z: 3.56}
+  m_Center: {x: 0, y: -0.09, z: 0}
 --- !u!1 &65310419
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,6 +648,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: drawer33
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4849efef0d2d83c4c98c9ea369f24e52,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1129496810705857465, guid: 4849efef0d2d83c4c98c9ea369f24e52,
         type: 3}
@@ -1611,6 +1684,89 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60ac94668b984bb4ab2197d6406ee996, type: 3}
+--- !u!1 &349391077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b959f29e06c795c418ddfd0106a79587,
+    type: 3}
+  m_PrefabInstance: {fileID: 602322994}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &349391078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349391077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!65 &349391079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349391077}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.005650821, y: 0.0017127561, z: 0.00034560877}
+  m_Center: {x: -0.002334508, y: 0.00025931795, z: 0.0000062224126}
+--- !u!114 &349391080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349391077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_Notebook
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - Witch
+  assignedIndex: 17
+  assignedID: 26959
+  assignedDialogue: UG_Ch1_InkwellQuill
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
 --- !u!1 &362446497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2645,6 +2801,174 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4990af68792b940a147204bebe1ae8, type: 3}
+--- !u!1 &587689712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b959f29e06c795c418ddfd0106a79587,
+    type: 3}
+  m_PrefabInstance: {fileID: 900497447}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &587689713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587689712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_Notebook
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - Witch
+  assignedIndex: 17
+  assignedID: 26959
+  assignedDialogue: UG_Ch1_InkwellQuill
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &587689714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587689712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!65 &587689715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587689712}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.005650821, y: 0.0017127561, z: 0.00034560877}
+  m_Center: {x: -0.002334508, y: 0.00025931795, z: 0.0000062224126}
+--- !u!1 &595661054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eac832f3d39a95c43acc4e2a53e29c6e,
+    type: 3}
+  m_PrefabInstance: {fileID: 130111647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &595661055
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595661054}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.055, y: 0.0490794, z: 0.04142381}
+  m_Center: {x: -0.0021489905, y: -3.054912e-18, z: 0.015727585}
+--- !u!114 &595661056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595661054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_Notebook
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - Witch
+  assignedIndex: 22
+  assignedID: 56573
+  assignedDialogue: UG_Ch1_Teapot
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &595661057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 595661054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!1001 &602322994
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2882,6 +3206,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7a7a8492b5362f429051f051378a457, type: 3}
+--- !u!1 &670830313 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b7a7a8492b5362f429051f051378a457,
+    type: 3}
+  m_PrefabInstance: {fileID: 1821581901}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &670830314
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670830313}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033781773, y: 0.0010675698, z: 0.0039129085}
+  m_Center: {x: -0.00017994261, y: 0.0000000031426757, z: 0.0019564552}
 --- !u!1001 &688744616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3863,7 +4206,6 @@ GameObject:
   - component: {fileID: 939165513}
   - component: {fileID: 939165512}
   - component: {fileID: 939165511}
-  - component: {fileID: 939165515}
   m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
@@ -3945,19 +4287,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &939165515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 939165510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupRelyingOnUs: {fileID: 0}
 --- !u!1001 &987304281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4874,6 +5203,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7a7a8492b5362f429051f051378a457, type: 3}
+--- !u!1 &1253310677 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b7a7a8492b5362f429051f051378a457,
+    type: 3}
+  m_PrefabInstance: {fileID: 1697337689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1253310678
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253310677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033781768, y: 0.0010675698, z: 0.0039129085}
+  m_Center: {x: -0.00017994258, y: 0.0000000031426757, z: 0.0019564552}
 --- !u!1 &1253979506
 GameObject:
   m_ObjectHideFlags: 0
@@ -4886,7 +5234,6 @@ GameObject:
   - component: {fileID: 1253979510}
   - component: {fileID: 1253979509}
   - component: {fileID: 1253979508}
-  - component: {fileID: 1253979507}
   m_Layer: 8
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -4894,19 +5241,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1253979507
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1253979506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupRelyingOnUs: {fileID: 0}
 --- !u!65 &1253979508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5070,46 +5404,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd4990af68792b940a147204bebe1ae8, type: 3}
---- !u!1 &1312388939 stripped
+--- !u!1 &1310714922 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 66a3cd89d4340c643be35a4f7b0be221,
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1dcdc32c1f07ed34d9901e6f38808b4b,
     type: 3}
-  m_PrefabInstance: {fileID: 1601058504}
+  m_PrefabInstance: {fileID: 791857347}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1312388940
+--- !u!114 &1310714923
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312388939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupRelyingOnUs: {fileID: 0}
---- !u!136 &1312388941
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312388939}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.015519851
-  m_Height: 0.031032888
-  m_Direction: 1
-  m_Center: {x: 0.0000000121071935, y: 0.0000068051727, z: 0.00027009094}
---- !u!114 &1312388942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312388939}
+  m_GameObject: {fileID: 1310714922}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
@@ -5130,10 +5437,15 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
   - Witch
-  assignedIndex: 12
-  assignedID: 82665
-  assignedDialogue: TableDialogue
+  assignedIndex: 17
+  assignedID: 19702
+  assignedDialogue: UG_Ch1_Sofa
   interactionCount: 0
   alias: 
   overrideStartNode: -1
@@ -5147,6 +5459,39 @@ MonoBehaviour:
   langs: []
   S_playerDiags: []
   S_actionNodes: []
+--- !u!65 &1310714924
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310714922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.011990291, y: 0.021638634, z: 0.010100483}
+  m_Center: {x: 0.0045069563, y: -0.009229413, z: 0.0039695096}
+--- !u!1 &1312388939 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 66a3cd89d4340c643be35a4f7b0be221,
+    type: 3}
+  m_PrefabInstance: {fileID: 1601058504}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1312388941
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312388939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.007
+  m_Height: 0.029
+  m_Direction: 1
+  m_Center: {x: 0.0000000121071935, y: 0.0000068051727, z: 0.00027009094}
 --- !u!1001 &1348212940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5296,113 +5641,27 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
   - UG_Ch1_DaemonPlaying
+  - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - Witch
-  assignedIndex: 12
-  assignedID: 82665
-  assignedDialogue: TableDialogue
+  assignedIndex: 18
+  assignedID: 52600
+  assignedDialogue: UG_Ch1_StartGame
   interactionCount: 0
   alias: 
   overrideStartNode: -1
   defaultNPCSprite: {fileID: 0}
   defaultPlayerSprite: {fileID: 0}
   targetManager: {fileID: 0}
-  preload: 1
+  preload: 0
   notuptodate: 0
   startp: 0
   loadtag: 
   langs: []
-  S_playerDiags:
-  - commentCount: 1
-    s_comment:
-    - text: Wow, what a creepy table.
-      extraData: ExtraData
-      inputSetIndex: 0
-      outputNodeIndex: 1
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 0
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Excuse me! Who are you calling creepy, young man?
-      extraData: ExtraData
-      inputSetIndex: 1
-      outputNodeIndex: 2
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 1
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: Waah! The table talks!
-      extraData: ExtraData
-      inputSetIndex: 2
-      outputNodeIndex: 3
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: It's gonna eat me!!!!!!
-      extraData: ExtraData
-      inputSetIndex: 2
-      outputNodeIndex: 4
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 2
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Youth these days...
-      extraData: ExtraData
-      inputSetIndex: 3
-      outputNodeIndex: -1
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 3
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Omnomnom
-      extraData: ExtraData
-      inputSetIndex: 4
-      outputNodeIndex: -1
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 4
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
+  S_playerDiags: []
   S_actionNodes: []
 --- !u!4 &1361777727
 Transform:
@@ -5430,7 +5689,6 @@ GameObject:
   - component: {fileID: 1375638705}
   - component: {fileID: 1375638704}
   - component: {fileID: 1375638703}
-  - component: {fileID: 1375638702}
   m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -5438,19 +5696,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1375638702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1375638701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupRelyingOnUs: {fileID: 0}
 --- !u!65 &1375638703
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5525,6 +5770,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1399414463 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b7a7a8492b5362f429051f051378a457,
+    type: 3}
+  m_PrefabInstance: {fileID: 1665611283}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1399414464
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399414463}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033781768, y: 0.0010675698, z: 0.0039129085}
+  m_Center: {x: -0.00017994258, y: 0.0000000031426757, z: 0.0019564552}
 --- !u!1001 &1508292839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5673,11 +5937,13 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
   - UG_Ch1_DaemonPlaying
+  - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - Witch
-  assignedIndex: 14
+  assignedIndex: 15
   assignedID: 62797
   assignedDialogue: UG_Ch1_DaemonBeforePlaying
   interactionCount: 0
@@ -6296,6 +6562,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a046f26edac3304fb1861ac865a11d8, type: 3}
+--- !u!1 &1597732442 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b7a7a8492b5362f429051f051378a457,
+    type: 3}
+  m_PrefabInstance: {fileID: 653383093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1597732443
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597732442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033781768, y: 0.0010675698, z: 0.0039129085}
+  m_Center: {x: -0.00017994258, y: 0.0000000031426757, z: 0.0019564552}
 --- !u!1001 &1601058504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6370,6 +6655,91 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66a3cd89d4340c643be35a4f7b0be221, type: 3}
+--- !u!1 &1633676928 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: fd4990af68792b940a147204bebe1ae8,
+    type: 3}
+  m_PrefabInstance: {fileID: 740368281}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1633676929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633676928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_Notebook
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - Witch
+  assignedIndex: 14
+  assignedID: 99470
+  assignedDialogue: UG_Ch1_Candles
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &1633676930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633676928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!65 &1633676931
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633676928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02, y: 0.019999996, z: 0.573179}
+  m_Center: {x: -1.2283044e-16, y: 2.456609e-16, z: 0.2765895}
 --- !u!1001 &1633753023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6617,6 +6987,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 866685f8e3681284388a59f613918f7d, type: 3}
+--- !u!1 &1682081037 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b7a7a8492b5362f429051f051378a457,
+    type: 3}
+  m_PrefabInstance: {fileID: 688744616}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1682081038
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682081037}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033781768, y: 0.0010675698, z: 0.0039129085}
+  m_Center: {x: -0.00017994258, y: 0.0000000031426757, z: 0.0019564552}
 --- !u!1001 &1691323841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6854,6 +7243,174 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1efae27eb3ef764ea88ee9672a0f92f, type: 3}
+--- !u!1 &1753917354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 67d813d4be242354392e03fc486318e2,
+    type: 3}
+  m_PrefabInstance: {fileID: 374550399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1753917355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753917354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_Notebook
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - Witch
+  assignedIndex: 19
+  assignedID: 1333
+  assignedDialogue: UG_Ch1_Notebook
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &1753917356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753917354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!65 &1753917357
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753917354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.006315287, y: 0.0038311821, z: 0.00029}
+  m_Center: {x: 0, y: -0.0000000014551912, z: 0.00039749304}
+--- !u!1 &1758243705 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eca32bb59173c5944b1754c4b8dfe6db,
+    type: 3}
+  m_PrefabInstance: {fileID: 2054681284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1758243706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758243705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_Notebook
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - Witch
+  assignedIndex: 17
+  assignedID: 26959
+  assignedDialogue: UG_Ch1_InkwellQuill
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &1758243707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758243705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!65 &1758243708
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758243705}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0013101822, y: 0.0015128674, z: 0.0012276546}
+  m_Center: {x: 0, y: 0, z: 0.00061382755}
 --- !u!1001 &1821581901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8698,7 +9255,6 @@ GameObject:
   - component: {fileID: 1993490029}
   - component: {fileID: 1993490028}
   - component: {fileID: 1993490027}
-  - component: {fileID: 1993490026}
   m_Layer: 8
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -8706,19 +9262,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1993490026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1993490025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupRelyingOnUs: {fileID: 0}
 --- !u!65 &1993490027
 BoxCollider:
   m_ObjectHideFlags: 0

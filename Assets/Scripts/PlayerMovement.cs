@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     /** PUBLIC VARIABLES */
     public CharacterController controller;
     public float movementSpeed = 12f;
-    public float radiusToInteract = 2f;
+    public float radiusToInteract = 4f;
 
     public string prompt;
 
