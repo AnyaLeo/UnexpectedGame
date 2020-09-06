@@ -5508,13 +5508,17 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_Candles
   - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
   - UG_Ch1_DaemonPlaying
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_Notebook
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
   - Witch
-  assignedIndex: 17
+  assignedIndex: 20
   assignedID: 19702
   assignedDialogue: UG_Ch1_Sofa
   interactionCount: 0
@@ -5543,6 +5547,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.011990291, y: 0.021638634, z: 0.010100483}
   m_Center: {x: 0.0045069563, y: -0.009229413, z: 0.0039695096}
+--- !u!114 &1310714925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310714922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!1 &1312388939 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 66a3cd89d4340c643be35a4f7b0be221,
