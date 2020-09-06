@@ -3249,6 +3249,91 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0033781773, y: 0.0010675698, z: 0.0039129085}
   m_Center: {x: -0.00017994261, y: 0.0000000031426757, z: 0.0019564552}
+--- !u!114 &670830315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670830313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!65 &670830316
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670830313}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033781773, y: 0.0010675698, z: 0.0039129085}
+  m_Center: {x: -0.00017994261, y: 0.0000000031426757, z: 0.0019564552}
+--- !u!114 &670830317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670830313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_BigLamp
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DemonLermontov
+  - UG_Ch1_DorianGrayWilde
+  - UG_Ch1_FaustGoethe
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_MacbethShakespeare
+  - UG_Ch1_Notebook
+  - UG_Ch1_ParadiseLostMilton
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - Witch
+  assignedIndex: 23
+  assignedID: 29969
+  assignedDialogue: UG_Ch1_MacbethShakespeare
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
 --- !u!1001 &688744616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5293,6 +5378,78 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0033781768, y: 0.0010675698, z: 0.0039129085}
   m_Center: {x: -0.00017994258, y: 0.0000000031426757, z: 0.0019564552}
+--- !u!114 &1253310679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253310677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_BigLamp
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DemonLermontov
+  - UG_Ch1_DorianGrayWilde
+  - UG_Ch1_FaustGoethe
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_MacbethShakespeare
+  - UG_Ch1_Notebook
+  - UG_Ch1_ParadiseLostMilton
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - Witch
+  assignedIndex: 19
+  assignedID: 8445
+  assignedDialogue: UG_Ch1_DemonLermontov
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &1253310680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1253310677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!1 &1253979506
 GameObject:
   m_ObjectHideFlags: 0
@@ -5877,6 +6034,78 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0033781768, y: 0.0010675698, z: 0.0039129085}
   m_Center: {x: -0.00017994258, y: 0.0000000031426757, z: 0.0019564552}
+--- !u!114 &1399414465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399414463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_BigLamp
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DemonLermontov
+  - UG_Ch1_DorianGrayWilde
+  - UG_Ch1_FaustGoethe
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_MacbethShakespeare
+  - UG_Ch1_Notebook
+  - UG_Ch1_ParadiseLostMilton
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - Witch
+  assignedIndex: 25
+  assignedID: 35964
+  assignedDialogue: UG_Ch1_ParadiseLostMilton
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &1399414466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1399414463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!1001 &1508292839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6754,6 +6983,91 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0033781768, y: 0.0010675698, z: 0.0039129085}
   m_Center: {x: -0.00017994258, y: 0.0000000031426757, z: 0.0019564552}
+--- !u!114 &1597732444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597732442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_BigLamp
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DemonLermontov
+  - UG_Ch1_DorianGrayWilde
+  - UG_Ch1_FaustGoethe
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_MacbethShakespeare
+  - UG_Ch1_Notebook
+  - UG_Ch1_ParadiseLostMilton
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - Witch
+  assignedIndex: 21
+  assignedID: 12436
+  assignedDialogue: UG_Ch1_FaustGoethe
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &1597732445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597732442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!65 &1597732446
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597732442}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033781768, y: 0.0010675698, z: 0.0039129085}
+  m_Center: {x: -0.00017994258, y: 0.0000000031426757, z: 0.0019564552}
 --- !u!1001 &1601058504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7179,6 +7493,91 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0033781768, y: 0.0010675698, z: 0.0039129085}
   m_Center: {x: -0.00017994258, y: 0.0000000031426757, z: 0.0019564552}
+--- !u!114 &1682081039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682081037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!65 &1682081040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682081037}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033781768, y: 0.0010675698, z: 0.0039129085}
+  m_Center: {x: -0.00017994258, y: 0.0000000031426757, z: 0.0019564552}
+--- !u!114 &1682081041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682081037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_BigLamp
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DemonLermontov
+  - UG_Ch1_DorianGrayWilde
+  - UG_Ch1_FaustGoethe
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_MacbethShakespeare
+  - UG_Ch1_Notebook
+  - UG_Ch1_ParadiseLostMilton
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - Witch
+  assignedIndex: 20
+  assignedID: 95733
+  assignedDialogue: UG_Ch1_DorianGrayWilde
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
 --- !u!1001 &1691323841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9863,6 +10262,92 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eca32bb59173c5944b1754c4b8dfe6db, type: 3}
+--- !u!1 &2057418528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 766f3fde736eae1468392abc294f9297,
+    type: 3}
+  m_PrefabInstance: {fileID: 2070982810}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2057418529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057418528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_BigLamp
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_Notebook
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - Witch
+  assignedIndex: 14
+  assignedID: 48607
+  assignedDialogue: UG_Ch1_BigLamp
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!65 &2057418530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057418528}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.014277179, y: 0.014277176, z: 0.015624003}
+  m_Center: {x: 0, y: 0, z: -0.010682112}
+--- !u!114 &2057418531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057418528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!1001 &2066943833
 PrefabInstance:
   m_ObjectHideFlags: 0
