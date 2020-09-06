@@ -12081,6 +12081,11 @@ PrefabInstance:
       propertyPath: walkingAudioClip
       value: 
       objectReference: {fileID: 405260871313796600}
+    - target: {fileID: 405260871857628457, guid: d1db7d7aa34144949af610093b47a139,
+        type: 3}
+      propertyPath: crosshair
+      value: 
+      objectReference: {fileID: 1769466524}
     - target: {fileID: 405260871857628458, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_Height

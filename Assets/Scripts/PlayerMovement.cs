@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed = 12f;
     public float radiusToInteract = 4f;
 
+    public Image crosshair;
+
     public string prompt;
 
     public Text promptText;
@@ -37,10 +39,12 @@ public class PlayerMovement : MonoBehaviour
         // Movement is disallowed when we are talking to something
         if (!VD.isActive)
         {
+            crosshair.enabled = true;
             movePlayer();
         }
         else
         {
+            crosshair.enabled = false;
             walkingAudioClip.Stop();
         }
 
