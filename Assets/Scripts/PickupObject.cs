@@ -8,8 +8,18 @@ using UnityEngine;
 
 public class PickupObject : InteractableObject
 {
+    public bool canBePickedUp { get; set; }
+
+    public void Start()
+    {
+        canBePickedUp = false;
+    }
+
     public override void Interact()
     {
-        gameObject.SetActive(false);
+        if (canBePickedUp)
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

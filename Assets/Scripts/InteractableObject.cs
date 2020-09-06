@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class InteractableObject : MonoBehaviour
 {
+    public PickupObject pickupRelyingOnUs;
+
     public virtual void Interact()
     {
         // This method is meant to be overwritten
@@ -20,5 +22,14 @@ public class InteractableObject : MonoBehaviour
     {
         Gizmos.color = Color.magenta;
         //Gizmos.DrawWireSphere(transform.position, interactionRadius);
+    }
+
+    public void allowPickupToBePickedUp()
+    {
+        // This is a really bad way to do things isn't it
+        if (pickupRelyingOnUs != null)
+        {
+            pickupRelyingOnUs.canBePickedUp = true;
+        }
     }
 }

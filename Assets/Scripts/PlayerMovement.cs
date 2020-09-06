@@ -76,7 +76,10 @@ public class PlayerMovement : MonoBehaviour
 
                 // TODO: dont bother the game mode from the player controller
                 // like seriously
-                gameMode.isCardGameInProgress = true;
+                if (pickup.canBePickedUp)
+                {
+                    gameMode.isCardGameInProgress = true;
+                }
             }
         }
     }
@@ -123,17 +126,6 @@ public class PlayerMovement : MonoBehaviour
         // i.e. the direction we are facing
         Vector3 movement = transform.right * rightDirection
             + transform.forward * forwardDirection;
-
-        /*if (Mathf.Approximately(rightDirection, 0f) 
-            && Mathf.Approximately(forwardDirection, 0f))
-        {
-            walkingAudioClip.Stop();
-        }
-        else if (!walkingAudioClip.isPlaying)
-        {
-            Debug.Log("Playing audio!");
-            walkingAudioClip.Play();
-        }*/
 
         controller.SimpleMove(movement * movementSpeed);
 

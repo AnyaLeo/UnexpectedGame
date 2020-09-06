@@ -228,6 +228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2df4666698714b41aa83f72c5c5bf6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!1 &65310419
 GameObject:
   m_ObjectHideFlags: 0
@@ -3956,6 +3957,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!1001 &987304281
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4904,6 +4906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!65 &1253979508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5085,6 +5088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!136 &1312388941
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5446,6 +5450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!65 &1375638703
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5627,6 +5632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 499467}
 --- !u!65 &1527852452
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6102,7 +6108,7 @@ MonoBehaviour:
       extraData: ExtraData
       inputSetIndex: 25
       outputNodeIndex: -1
-      outActionIndex: -1
+      outActionIndex: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -6112,7 +6118,21 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 0
-  S_actionNodes: []
+  S_actionNodes:
+  - pauseHere: 0
+    gameObjectName: daemon
+    methodName: allowPickupToBePickedUp
+    paramType: 0
+    gotoNode: -1
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    ID: 26
+    outPlayerIndex: -1
+    outActionIndex: -1
+    ovrStartNode: -1
+    renameDialogue: 
 --- !u!1001 &1542729248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8426,6 +8446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!65 &1904074736
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8697,6 +8718,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
 --- !u!65 &1993490027
 BoxCollider:
   m_ObjectHideFlags: 0
