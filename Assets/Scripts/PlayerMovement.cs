@@ -39,6 +39,10 @@ public class PlayerMovement : MonoBehaviour
         {
             movePlayer();
         }
+        else
+        {
+            walkingAudioClip.Stop();
+        }
 
         // Deal with interactables
         // The current interactable will be stored in a variable "focus"
@@ -50,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // To continue dialogue, press return
-        if (Input.GetKeyDown(KeyCode.Return))
+        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
         {
             dialogueManager.CallNextNode();
         }
@@ -89,11 +93,13 @@ public class PlayerMovement : MonoBehaviour
         // Check if we are looking at an interactable object
         Ray ray = playerCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
-
+        Debug.DrawRay(ray.origin, ray.direction * 500, Color.red);
         if (Physics.Raycast(ray, out hit, radiusToInteract))
         {
             InteractableObject interactable =
                 hit.collider.GetComponent<InteractableObject>();
+
+            
 
             // If we hit an interactable, display the prompt
             // But only if we are not in the middle of a dialogue
