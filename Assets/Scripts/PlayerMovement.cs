@@ -15,6 +15,8 @@ public class PlayerMovement : MonoBehaviour
 
     public Text promptText;
 
+    public AudioSource walkingAudioClip;
+
     public UIManager dialogueManager;
 
     public GameMode gameMode;
@@ -122,7 +124,36 @@ public class PlayerMovement : MonoBehaviour
         Vector3 movement = transform.right * rightDirection
             + transform.forward * forwardDirection;
 
+        /*if (Mathf.Approximately(rightDirection, 0f) 
+            && Mathf.Approximately(forwardDirection, 0f))
+        {
+            walkingAudioClip.Stop();
+        }
+        else if (!walkingAudioClip.isPlaying)
+        {
+            Debug.Log("Playing audio!");
+            walkingAudioClip.Play();
+        }*/
+
         controller.SimpleMove(movement * movementSpeed);
+
+        bool shouldPlayWalkingSound = 
+            !(Mathf.Approximately(rightDirection, 0f)
+            && Mathf.Approximately(forwardDirection, 0f));
+
+        setWalkingSound(shouldPlayWalkingSound);
+    }
+
+    private void setWalkingSound(bool shouldPlay)
+    {
+        if (shouldPlay && !walkingAudioClip.isPlaying)
+        {
+            walkingAudioClip.Play();
+        }
+        else if (!shouldPlay)
+        {
+            walkingAudioClip.Stop();
+        }
     }
 
     private void SetPromptText(string prompt)

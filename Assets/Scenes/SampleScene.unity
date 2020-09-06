@@ -9496,6 +9496,11 @@ PrefabInstance:
       propertyPath: gameMode
       value: 
       objectReference: {fileID: 1361777725}
+    - target: {fileID: 405260871857628457, guid: d1db7d7aa34144949af610093b47a139,
+        type: 3}
+      propertyPath: walkingAudioClip
+      value: 
+      objectReference: {fileID: 405260871313796600}
     - target: {fileID: 405260871857628458, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_Height
@@ -9571,5 +9576,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.39
       objectReference: {fileID: 0}
+    - target: {fileID: 2893864527439610998, guid: d1db7d7aa34144949af610093b47a139,
+        type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1db7d7aa34144949af610093b47a139, type: 3}
+--- !u!82 &405260871313796600 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2893864527439610998, guid: d1db7d7aa34144949af610093b47a139,
+    type: 3}
+  m_PrefabInstance: {fileID: 405260871313796599}
+  m_PrefabAsset: {fileID: 0}
