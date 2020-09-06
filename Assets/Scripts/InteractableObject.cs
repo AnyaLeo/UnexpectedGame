@@ -4,13 +4,6 @@ using UnityEngine;
 
 public class InteractableObject : MonoBehaviour
 {
-    public string ObjectName = "Object";
-    public string Dialogue = "Dialogue";
-
-    public GameObject promptPrefab; 
-
-    //private Transform player;
-
     public virtual void Interact()
     {
         // This method is meant to be overwritten
@@ -19,7 +12,7 @@ public class InteractableObject : MonoBehaviour
 
     private void DisplayText()
     {
-        Debug.Log(ObjectName + ": " + Dialogue);
+        Debug.Log("Interacting");
     }
 
     // Helper function to visualize the interaction radius

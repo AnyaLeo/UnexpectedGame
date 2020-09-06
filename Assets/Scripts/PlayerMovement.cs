@@ -17,6 +17,8 @@ public class PlayerMovement : MonoBehaviour
 
     public UIManager dialogueManager;
 
+    public GameMode gameMode;
+
     /** PRIVATE VARIABLES */
     private Camera playerCamera;
     private InteractableObject focus;
@@ -60,6 +62,19 @@ public class PlayerMovement : MonoBehaviour
             {
                 VIDE_Assign dialogue = focus.GetComponent<VIDE_Assign>();
                 dialogueManager.StartDialogue(dialogue);
+            }
+
+            // TODO: this would work MUCH better if Interact was called on the
+            // InteractableObject, consider how we can move
+            // starting the dialogue to the interactable object
+            PickupObject pickup = focus.GetComponent<PickupObject>();
+            if (pickup != null)
+            {
+                pickup.Interact();
+
+                // TODO: dont bother the game mode from the player controller
+                // like seriously
+                gameMode.isCardGameInProgress = true;
             }
         }
     }
