@@ -10032,8 +10032,8 @@ MonoBehaviour:
     - text: Daemon.
       extraData: ExtraData
       inputSetIndex: 13
-      outputNodeIndex: 62
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -10886,17 +10886,41 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 1
-  - commentCount: 1
+  - commentCount: 2
     s_comment:
-    - text: Call me Daemon.
+    - text: What an interesting name.
       extraData: ExtraData
       inputSetIndex: 62
-      outputNodeIndex: -1
-      outActionIndex: 0
+      outputNodeIndex: 14
+      outActionIndex: -1
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 62
+    - text: 'Daemon... Sounds so pretentious. I''m going to call you Douchemon. '
+      extraData: ExtraData
+      inputSetIndex: 62
+      outputNodeIndex: -1
+      outActionIndex: 1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 63
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: I don't even...
+      extraData: ExtraData
+      inputSetIndex: 63
+      outputNodeIndex: 14
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 64
     pTag: 
     sprite: {fileID: 0}
     vars: []
@@ -10912,8 +10936,22 @@ MonoBehaviour:
     param_string: Daemon
     param_int: 0
     param_float: 0
-    ID: 63
-    outPlayerIndex: 14
+    ID: 62
+    outPlayerIndex: 62
+    outActionIndex: -1
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: UIManager
+    methodName: SetNPCLabel
+    paramType: 2
+    gotoNode: -1
+    param_bool: 0
+    param_string: Douchemon
+    param_int: 0
+    param_float: 0
+    ID: 65
+    outPlayerIndex: 63
     outActionIndex: -1
     ovrStartNode: -1
     renameDialogue: 
