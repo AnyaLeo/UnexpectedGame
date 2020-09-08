@@ -15,6 +15,7 @@ public class UIManager : MonoBehaviour
 
     public Text textNPC;
     public Text[] textPlayer;
+    public Text labelNPC;
 
     private int selectedChoiceIndex;
     private int playerChoiceCount;
@@ -162,4 +163,12 @@ public class UIManager : MonoBehaviour
             VD.Next();
         }
     }
-}
+
+    public void SetNPCLabel(string newLabel)
+    {
+        if (labelNPC != null)
+        {
+            labelNPC.text = newLabel;
+        }
+    }
+} 
