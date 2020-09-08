@@ -10032,8 +10032,8 @@ MonoBehaviour:
     - text: Daemon.
       extraData: ExtraData
       inputSetIndex: 13
-      outputNodeIndex: -1
-      outActionIndex: 0
+      outputNodeIndex: 62
+      outActionIndex: -1
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -10888,11 +10888,11 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 2
     s_comment:
-    - text: What an interesting name.
+    - text: I take it you couldn't have picked a more shady name?
       extraData: ExtraData
       inputSetIndex: 62
-      outputNodeIndex: 14
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -10912,7 +10912,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: I don't even...
+    - text: How thoughtful of you.
       extraData: ExtraData
       inputSetIndex: 63
       outputNodeIndex: 14
@@ -10921,6 +10921,22 @@ MonoBehaviour:
       audios: {fileID: 0}
       visible: 1
     ID: 64
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Maybe in another life.
+      extraData: ExtraData
+      inputSetIndex: 64
+      outputNodeIndex: 14
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 66
     pTag: 
     sprite: {fileID: 0}
     vars: []
@@ -10937,7 +10953,7 @@ MonoBehaviour:
     param_int: 0
     param_float: 0
     ID: 62
-    outPlayerIndex: 62
+    outPlayerIndex: 64
     outActionIndex: -1
     ovrStartNode: -1
     renameDialogue: 
