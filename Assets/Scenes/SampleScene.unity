@@ -320,6 +320,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 111351272}
   m_PrefabAsset: {fileID: 0}
+--- !u!20 &32457979 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 405260872276967556, guid: d1db7d7aa34144949af610093b47a139,
+    type: 3}
+  m_PrefabInstance: {fileID: 405260871313796599}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &65310419
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,7 +927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -11.621}
+  m_AnchoredPosition: {x: 0, y: -11.621002}
   m_SizeDelta: {x: -0.00012207031, y: 142.94662}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1001 &130111647
@@ -4867,7 +4873,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.04, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -11.621}
+  m_AnchoredPosition: {x: 0, y: -11.621002}
   m_SizeDelta: {x: -0.000061035156, y: 142.94626}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!1001 &926117344
@@ -5968,7 +5974,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 32457979}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -9663,6 +9669,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769466522}
   m_CullTransparentMesh: 0
+--- !u!1 &1813626470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b7a7a8492b5362f429051f051378a457,
+    type: 3}
+  m_PrefabInstance: {fileID: 415876065}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1813626471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813626470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e699c63d687024fb9f776d5ba0baa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+  letterContent: Hi this is Patrick
+  letterPrefab: {fileID: 1015245224261210375, guid: cb4a70aa4b73800488add39fb1f4e498,
+    type: 3}
+  canvas: {fileID: 1141108723}
+--- !u!65 &1813626472
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813626470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0033781768, y: 0.0010675695, z: 0.003912907}
+  m_Center: {x: -0.00017994258, y: 0.0000000036184125, z: 0.0019564545}
 --- !u!1001 &1821581901
 PrefabInstance:
   m_ObjectHideFlags: 0

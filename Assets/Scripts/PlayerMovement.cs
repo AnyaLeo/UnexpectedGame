@@ -74,13 +74,15 @@ public class PlayerMovement : MonoBehaviour
                 dialogueManager.StartDialogue(dialogue);
             }
 
+            focus.Interact();
+
             // TODO: this would work MUCH better if Interact was called on the
             // InteractableObject, consider how we can move
             // starting the dialogue to the interactable object
             PickupObject pickup = focus.GetComponent<PickupObject>();
             if (pickup != null)
             {
-                pickup.Interact();
+                //pickup.Interact();
 
                 // TODO: dont bother the game mode from the player controller
                 // like seriously
