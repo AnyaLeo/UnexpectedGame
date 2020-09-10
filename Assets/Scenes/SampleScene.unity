@@ -9688,7 +9688,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupRelyingOnUs: {fileID: 0}
-  letterContent: Hi this is Patrick
+  letterContent: 'Hi.
+
+    This is Patrick.
+
+    :D'
   letterPrefab: {fileID: 1015245224261210375, guid: cb4a70aa4b73800488add39fb1f4e498,
     type: 3}
   canvas: {fileID: 1141108723}

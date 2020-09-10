@@ -1,11 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 // Readable Object will spawn a letter with the text specified by the user.
 
 public class ReadableObject : InteractableObject
 {
+    [TextArea]
     public string letterContent;
     public GameObject letterPrefab;
 
@@ -21,6 +23,17 @@ public class ReadableObject : InteractableObject
 
             letterSpawned.transform.SetParent(canvas.transform);
             letterSpawned.transform.localPosition = letterPosition;
+
+            // Set the text content of the letter
+            Text letterText = letterSpawned.GetComponentInChildren<Text>();
+            if (letterText != null)
+            {
+                letterText.text = letterContent; 
+            } 
+            else
+            {
+                Debug.Log("ReadableObject: Does not have component Text.");
+            }
         }
         else
         {
