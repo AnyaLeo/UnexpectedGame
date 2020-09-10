@@ -13,11 +13,14 @@ public class ReadableObject : InteractableObject
 
     public Canvas canvas;
 
+    private GameObject letterSpawned;
+    private bool isPlayerInteracting;
+
     public override void Interact()
     {
         if (letterPrefab != null)
         {
-            GameObject letterSpawned = Instantiate(letterPrefab) as GameObject;
+            letterSpawned = Instantiate(letterPrefab) as GameObject;
 
             Vector3 letterPosition = new Vector3(0f, 0f, 0f);
 
@@ -34,6 +37,7 @@ public class ReadableObject : InteractableObject
             {
                 Debug.Log("ReadableObject: Does not have component Text.");
             }
+            isPlayerInteracting = true;
         }
         else
         {
@@ -41,15 +45,21 @@ public class ReadableObject : InteractableObject
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void StopInteracting()
     {
-        
+        if (isPlayerInteracting)
+        {
+            Destroy(letterSpawned);
+            isPlayerInteracting = false;
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (isPlayerInteracting && Input.GetKeyDown(KeyCode.Space))
+        {
+            StopInteracting();
+        }
     }
 }
