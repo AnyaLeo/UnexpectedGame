@@ -15,6 +15,7 @@ public class MouseLook : MonoBehaviour
     {
         // Don't show the cursor
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
