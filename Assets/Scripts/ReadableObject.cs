@@ -24,7 +24,7 @@ public class ReadableObject : InteractableObject
 
             Vector3 letterPosition = new Vector3(0f, 0f, 0f);
 
-            letterSpawned.transform.SetParent(canvas.transform);
+            letterSpawned.transform.SetParent(canvas.transform, false);
             letterSpawned.transform.localPosition = letterPosition;
 
             // Set the text content of the letter
