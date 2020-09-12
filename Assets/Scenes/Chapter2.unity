@@ -314,7 +314,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.69, y: 0.04, z: 3.56}
-  m_Center: {x: 0, y: -0.95, z: 0}
+  m_Center: {x: 0, y: -0.38, z: 0}
 --- !u!4 &23961911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4849efef0d2d83c4c98c9ea369f24e52,
