@@ -7666,6 +7666,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 553330545}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1527852450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527852449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9c2a14313c6c94eafc2c0cecfa6b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueComponent: {fileID: 0}
+  newDialogueName: UG_Ch1_DaemonBeforePlaying_Waiting
 --- !u!114 &1527852451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7723,6 +7737,7 @@ MonoBehaviour:
   - UG_Ch1_Candles
   - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
   - UG_Ch1_DaemonPlaying
   - UG_Ch1_DemonLermontov
   - UG_Ch1_DorianGrayWilde
@@ -7734,6 +7749,7 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch2_PortraitMissing
   - Witch
   assignedIndex: 17
   assignedID: 62797
@@ -8188,7 +8204,7 @@ MonoBehaviour:
     param_float: 0
     ID: 26
     outPlayerIndex: -1
-    outActionIndex: -1
+    outActionIndex: 2
     ovrStartNode: -1
     renameDialogue: 
   - pauseHere: 0
@@ -8202,6 +8218,20 @@ MonoBehaviour:
     param_float: 0
     ID: 27
     outPlayerIndex: 5
+    outActionIndex: -1
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: daemon
+    methodName: AssignNew
+    paramType: 2
+    gotoNode: -1
+    param_bool: 0
+    param_string: UG_Ch1_DaemonBeforePlaying_Waiting
+    param_int: 0
+    param_float: 0
+    ID: 28
+    outPlayerIndex: -1
     outActionIndex: -1
     ovrStartNode: -1
     renameDialogue: 
@@ -10366,6 +10396,7 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch2_PortraitMissing
   - Witch
   assignedIndex: 18
   assignedID: 92710
