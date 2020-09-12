@@ -272,6 +272,7 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch2_PortraitMissing
   - Witch
   assignedIndex: 16
   assignedID: 82765
@@ -313,7 +314,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 4.69, y: 0.04, z: 3.56}
-  m_Center: {x: 0, y: -0.09, z: 0}
+  m_Center: {x: 0, y: -0.95, z: 0}
 --- !u!4 &23961911 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4849efef0d2d83c4c98c9ea369f24e52,
@@ -1952,6 +1953,7 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch2_PortraitMissing
   - Witch
   assignedIndex: 22
   assignedID: 26959
@@ -4264,6 +4266,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a82673adeba5fea42b83fc3bfb77828a, type: 3}
+--- !u!1 &777096852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a82673adeba5fea42b83fc3bfb77828a,
+    type: 3}
+  m_PrefabInstance: {fileID: 777096851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &777096853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777096852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.014405763, y: 0.019343961, z: 0.0017554559}
+  m_Center: {x: -0.000075822, y: 0.000036356967, z: 0.00006316136}
+--- !u!114 &777096854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777096852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e699c63d687024fb9f776d5ba0baa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+  letterContent: This is letter 5
+  letterPrefab: {fileID: 1015245224261210375, guid: cb4a70aa4b73800488add39fb1f4e498,
+    type: 3}
+  canvas: {fileID: 1141108723}
 --- !u!1001 &791857347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6508,6 +6546,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a82673adeba5fea42b83fc3bfb77828a, type: 3}
+--- !u!1 &1247720541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a82673adeba5fea42b83fc3bfb77828a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1247720540}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1247720542
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247720541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.014405765, y: 0.019343963, z: 0.003755456}
+  m_Center: {x: -0.000075822005, y: 0.00003635697, z: 0.00006316137}
+--- !u!114 &1247720543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247720541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e699c63d687024fb9f776d5ba0baa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+  letterContent: This is letter 3
+  letterPrefab: {fileID: 1015245224261210375, guid: cb4a70aa4b73800488add39fb1f4e498,
+    type: 3}
+  canvas: {fileID: 1141108723}
 --- !u!1 &1253310677 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b7a7a8492b5362f429051f051378a457,
@@ -7033,8 +7107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 837273312}
-  pictureDisplayed1: {fileID: 1527852449}
-  pictureDisplayed2: {fileID: 1904074730}
+  keyPictureAnimations: []
 --- !u!114 &1361777726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7916,477 +7989,24 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch2_PortraitMissing
   - Witch
-  assignedIndex: 17
-  assignedID: 62797
-  assignedDialogue: UG_Ch1_DaemonBeforePlaying
+  assignedIndex: 29
+  assignedID: 10762
+  assignedDialogue: UG_Ch2_PortraitMissing
   interactionCount: 0
   alias: 
   overrideStartNode: -1
   defaultNPCSprite: {fileID: 0}
   defaultPlayerSprite: {fileID: 0}
   targetManager: {fileID: 0}
-  preload: 1
+  preload: 0
   notuptodate: 0
   startp: 0
   loadtag: 
   langs: []
-  S_playerDiags:
-  - commentCount: 1
-    s_comment:
-    - text: This portrait seems very familiar...
-      extraData: ExtraData
-      inputSetIndex: 0
-      outputNodeIndex: 1
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 0
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Ah, you are finally awake. The evening was starting to get boring.
-      extraData: ExtraData
-      inputSetIndex: 1
-      outputNodeIndex: 2
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 1
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Ah! What? Who is talking?
-      extraData: ExtraData
-      inputSetIndex: 2
-      outputNodeIndex: 3
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 2
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Right in front of you.
-      extraData: ExtraData
-      inputSetIndex: 3
-      outputNodeIndex: 4
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 3
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: The portrait?
-      extraData: ExtraData
-      inputSetIndex: 4
-      outputNodeIndex: -1
-      outActionIndex: 1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 4
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Yes. Hello. Do we need to do the introductions again, or will you remember
-        who I am?
-      extraData: ExtraData
-      inputSetIndex: 5
-      outputNodeIndex: 6
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 5
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: What do you mean? Do you know how I got here?
-      extraData: ExtraData
-      inputSetIndex: 6
-      outputNodeIndex: 7
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 6
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Yes.
-      extraData: ExtraData
-      inputSetIndex: 7
-      outputNodeIndex: 8
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 7
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: ...
-      extraData: ExtraData
-      inputSetIndex: 8
-      outputNodeIndex: 9
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 8
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: ...
-      extraData: ExtraData
-      inputSetIndex: 9
-      outputNodeIndex: 10
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 9
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Do you know how to get out?
-      extraData: ExtraData
-      inputSetIndex: 10
-      outputNodeIndex: 11
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 10
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Have you tried the door?
-      extraData: ExtraData
-      inputSetIndex: 11
-      outputNodeIndex: 12
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 11
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: There are no doors.
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: 13
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Very funny.
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: 14
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 12
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: I see your keen sight hasn't left you.
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: 14
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 13
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: I need to get out.
-      extraData: ExtraData
-      inputSetIndex: 14
-      outputNodeIndex: 15
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 14
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: I could help you.
-      extraData: ExtraData
-      inputSetIndex: 15
-      outputNodeIndex: 16
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 15
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: How?
-      extraData: ExtraData
-      inputSetIndex: 16
-      outputNodeIndex: 17
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 16
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: We could play a game of cards. If you win, you can have your freedom.
-      extraData: ExtraData
-      inputSetIndex: 17
-      outputNodeIndex: 18
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 17
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: And if I lose?
-      extraData: ExtraData
-      inputSetIndex: 18
-      outputNodeIndex: 19
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 18
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: You still have some of your memories yes?
-      extraData: ExtraData
-      inputSetIndex: 19
-      outputNodeIndex: 20
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 19
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: ...I suppose.
-      extraData: ExtraData
-      inputSetIndex: 20
-      outputNodeIndex: 21
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 20
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Then you know what I'll want. Sounds like a deal?
-      extraData: ExtraData
-      inputSetIndex: 21
-      outputNodeIndex: 22
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 21
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: A terrible one, yes.
-      extraData: ExtraData
-      inputSetIndex: 22
-      outputNodeIndex: 23
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 22
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Well, are you in?
-      extraData: ExtraData
-      inputSetIndex: 23
-      outputNodeIndex: 24
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 23
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Always.
-      extraData: ExtraData
-      inputSetIndex: 24
-      outputNodeIndex: 25
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 24
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Splendid. There is a deck of cards somewhere in your room. Be a dear,
-        fetch those for us, and come back when you are ready.
-      extraData: ExtraData
-      inputSetIndex: 25
-      outputNodeIndex: -1
-      outActionIndex: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 25
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  S_actionNodes:
-  - pauseHere: 0
-    gameObjectName: daemon
-    methodName: allowPickupToBePickedUp
-    paramType: 0
-    gotoNode: -1
-    param_bool: 0
-    param_string: 
-    param_int: 0
-    param_float: 0
-    ID: 26
-    outPlayerIndex: -1
-    outActionIndex: -1
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: UIManager
-    methodName: SetNPCLabel
-    paramType: 2
-    gotoNode: -1
-    param_bool: 0
-    param_string: The Portrait
-    param_int: 0
-    param_float: 0
-    ID: 27
-    outPlayerIndex: 5
-    outActionIndex: -1
-    ovrStartNode: -1
-    renameDialogue: 
+  S_playerDiags: []
+  S_actionNodes: []
 --- !u!1001 &1542729248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9691,6 +9311,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a82673adeba5fea42b83fc3bfb77828a, type: 3}
+--- !u!1 &1719839336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a82673adeba5fea42b83fc3bfb77828a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1719839335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1719839337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719839336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.014405763, y: 0.019343961, z: 0.009755456}
+  m_Center: {x: -0.000075822, y: 0.000036356967, z: 0.00006316136}
+--- !u!114 &1719839338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719839336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e699c63d687024fb9f776d5ba0baa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+  letterContent: This is letter 2
+  letterPrefab: {fileID: 1015245224261210375, guid: cb4a70aa4b73800488add39fb1f4e498,
+    type: 3}
+  canvas: {fileID: 1141108723}
 --- !u!1 &1753917354 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 67d813d4be242354392e03fc486318e2,
@@ -12036,6 +11692,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1b09fa1d032cb541badd48b95f49766, type: 3}
+--- !u!1 &1946904907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d1b09fa1d032cb541badd48b95f49766,
+    type: 3}
+  m_PrefabInstance: {fileID: 1946904906}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1946904908
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946904907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.020874832, y: 0.02162591, z: 0.003907306}
+  m_Center: {x: -0.000000316184, y: -0.00006827432, z: -0.00030474478}
+--- !u!114 &1946904909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946904907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e699c63d687024fb9f776d5ba0baa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+  letterContent: This is letter 4
+  letterPrefab: {fileID: 1015245224261210375, guid: cb4a70aa4b73800488add39fb1f4e498,
+    type: 3}
+  canvas: {fileID: 1141108723}
 --- !u!1001 &1947898111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13000,6 +12692,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d87b4921c49960b44ae9cc6fc9f16f19, type: 3}
+--- !u!1 &2066963032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d87b4921c49960b44ae9cc6fc9f16f19,
+    type: 3}
+  m_PrefabInstance: {fileID: 2066963031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2066963033
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066963032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.019545829, y: 0.018132433, z: 0.00999705}
+  m_Center: {x: -0.0020302818, y: 0.0022816446, z: -0.007781419}
+--- !u!114 &2066963034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2066963032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e699c63d687024fb9f776d5ba0baa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+  letterContent: This is letter 1
+  letterPrefab: {fileID: 1015245224261210375, guid: cb4a70aa4b73800488add39fb1f4e498,
+    type: 3}
+  canvas: {fileID: 1141108723}
 --- !u!1001 &2070982810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13407,6 +13135,16 @@ PrefabInstance:
       propertyPath: crosshair
       value: 
       objectReference: {fileID: 1769466524}
+    - target: {fileID: 405260871857628457, guid: d1db7d7aa34144949af610093b47a139,
+        type: 3}
+      propertyPath: crouchTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 405260871857628457, guid: d1db7d7aa34144949af610093b47a139,
+        type: 3}
+      propertyPath: crouchCharacterHeight
+      value: 0.05
+      objectReference: {fileID: 0}
     - target: {fileID: 405260871857628458, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_Height

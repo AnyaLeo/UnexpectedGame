@@ -23,14 +23,25 @@ public class PlayerMovement : MonoBehaviour
 
     public GameMode gameMode;
 
+    public float crouchOffset = 0.5f;
+    public float crouchTime = 0.5f;
+
     /** PRIVATE VARIABLES */
     private Camera playerCamera;
     private InteractableObject focus;
+
+    // Crouching/Uncrouching related variables
+    private bool bIsCrouching;
+    private float currentVelocity = 0.0f;
+    private float cameraHeight;
 
     private void Start()
     {
         playerCamera = Camera.main;
         SetPromptText("");
+
+        bIsCrouching = false;
+        cameraHeight = playerCamera.transform.localPosition.y;
     }
 
     // Update is called once per frame
@@ -62,6 +73,39 @@ public class PlayerMovement : MonoBehaviour
         {
             dialogueManager.CallNextNode();
         }
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            setCrouch();
+        }
+
+        if (bIsCrouching)
+        {
+            smoothCrouching(-crouchOffset);
+        } 
+        else
+        {
+            smoothCrouching(cameraHeight);
+        }
+    }
+
+    // Used this:
+    // https://answers.unity.com/questions/482882/how-can-i-smooth-out-the-crouch-movement.html
+    // to develop a smooth crouching 
+    private void smoothCrouching(float targetYPos)
+    {
+        float newY = Mathf.SmoothDamp(
+                playerCamera.transform.localPosition.y,
+                targetYPos,
+                ref currentVelocity,
+                crouchTime);
+        playerCamera.transform.localPosition = new Vector3(0, newY, 0);
+    }
+
+    private void setCrouch()
+    {
+        bIsCrouching = !bIsCrouching;
+        currentVelocity = 0.0f;
     }
 
     private void interactWithFocus()
