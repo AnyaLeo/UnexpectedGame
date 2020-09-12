@@ -215,7 +215,7 @@ Transform:
   m_Children:
   - {fileID: 128758353}
   m_Father: {fileID: 14455870}
-  m_RootOrder: 18
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &499467
 MonoBehaviour:
@@ -518,7 +518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 73102132}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: InteractableBooks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9758,27 +9758,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 415876065}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1813626471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813626470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3e699c63d687024fb9f776d5ba0baa9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupRelyingOnUs: {fileID: 0}
-  letterContent: 'Hi.
-
-    This is Patrick.
-
-    :D'
-  letterPrefab: {fileID: 1015245224261210375, guid: cb4a70aa4b73800488add39fb1f4e498,
-    type: 3}
-  canvas: {fileID: 1141108723}
 --- !u!65 &1813626472
 BoxCollider:
   m_ObjectHideFlags: 0
