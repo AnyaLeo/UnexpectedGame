@@ -13,6 +13,10 @@ public class GameMode : MonoBehaviour
     private bool hasDialoguePlayed;
     public bool isCardGameInProgress { get; set; }
 
+    // VIDE editor does not allow me to access functions in ace of spades
+    // so we'll have to show it manually for Chapter 1
+    public GameObject aceOfSpades;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,5 +45,10 @@ public class GameMode : MonoBehaviour
         keyPictureAnimations[keyAnimationIndex].SetActive(false);
         keyAnimationIndex++;
         keyPictureAnimations[keyAnimationIndex].SetActive(true);
+    }
+
+    public void showAceOfSpades()
+    {
+        aceOfSpades.SetActive(true);
     }
 }

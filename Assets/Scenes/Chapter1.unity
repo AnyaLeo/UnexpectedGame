@@ -541,7 +541,7 @@ Transform:
   - {fileID: 670830318}
   - {fileID: 1682081042}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &104538069
 PrefabInstance:
@@ -6516,7 +6516,7 @@ Transform:
   - {fileID: 23961911}
   - {fileID: 1112822032}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1292693011
 PrefabInstance:
@@ -6830,6 +6830,7 @@ GameObject:
   - component: {fileID: 1361777727}
   - component: {fileID: 1361777726}
   - component: {fileID: 1361777725}
+  - component: {fileID: 1361777728}
   m_Layer: 0
   m_Name: GameMode
   m_TagString: Untagged
@@ -6853,6 +6854,7 @@ MonoBehaviour:
   keyPictureAnimations:
   - {fileID: 1527852449}
   - {fileID: 1904074730}
+  aceOfSpades: {fileID: 1975460033}
 --- !u!114 &1361777726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6880,10 +6882,12 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_AceOfSpades
   - UG_Ch1_BigLamp
   - UG_Ch1_Candles
   - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
   - UG_Ch1_DaemonPlaying
   - UG_Ch1_DemonLermontov
   - UG_Ch1_DorianGrayWilde
@@ -6895,8 +6899,9 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch2_PortraitMissing
   - Witch
-  assignedIndex: 27
+  assignedIndex: 29
   assignedID: 52600
   assignedDialogue: UG_Ch1_StartGame
   interactionCount: 0
@@ -6926,6 +6931,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1361777728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361777724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0c27e6c38b996a4c919536bd2cfd8c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1371882195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7108,7 +7125,7 @@ Transform:
   - {fileID: 1310714928}
   - {fileID: 1049436253}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1397345038
 PrefabInstance:
@@ -7678,8 +7695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9c2a14313c6c94eafc2c0cecfa6b6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueComponent: {fileID: 0}
-  newDialogueName: UG_Ch1_DaemonBeforePlaying_Waiting
 --- !u!114 &1527852451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9983,7 +9998,7 @@ Transform:
   m_LocalScale: {x: 20, y: 0.5, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1849124717
 PrefabInstance:
@@ -10381,10 +10396,12 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_AceOfSpades
   - UG_Ch1_BigLamp
   - UG_Ch1_Candles
   - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
   - UG_Ch1_DaemonPlaying
   - UG_Ch1_DemonLermontov
   - UG_Ch1_DorianGrayWilde
@@ -10398,7 +10415,7 @@ MonoBehaviour:
   - UG_Ch1_Teapot
   - UG_Ch2_PortraitMissing
   - Witch
-  assignedIndex: 18
+  assignedIndex: 20
   assignedID: 92710
   assignedDialogue: UG_Ch1_DaemonPlaying
   interactionCount: 0
@@ -10642,7 +10659,7 @@ MonoBehaviour:
     - text: Daemon.
       extraData: ExtraData
       inputSetIndex: 13
-      outputNodeIndex: 62
+      outputNodeIndex: 60
       outActionIndex: -1
       sprites: {fileID: 0}
       audios: {fileID: 0}
@@ -11417,7 +11434,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Oh. Wait, what is this?
+    - text: ...
       extraData: ExtraData
       inputSetIndex: 57
       outputNodeIndex: 58
@@ -11433,7 +11450,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: (you look down to find the ace of spades on the floor)
+    - text: How strange.
       extraData: ExtraData
       inputSetIndex: 58
       outputNodeIndex: 59
@@ -11449,12 +11466,11 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Ah, there it is... Must have fallen out of my hand when I picked up the
-        deck.
+    - text: The ace of spades is indeed not in the deck. I should look for it.
       extraData: ExtraData
       inputSetIndex: 59
-      outputNodeIndex: 60
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 2
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -11464,43 +11480,11 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: So much fuss about one little card.
-      extraData: ExtraData
-      inputSetIndex: 60
-      outputNodeIndex: 61
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 60
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: One little, very powerful card...
-      extraData: ExtraData
-      inputSetIndex: 61
-      outputNodeIndex: -1
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 61
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
   - commentCount: 2
     s_comment:
     - text: I take it you couldn't have picked a more shady name?
       extraData: ExtraData
-      inputSetIndex: 62
+      inputSetIndex: 60
       outputNodeIndex: -1
       outActionIndex: 0
       sprites: {fileID: 0}
@@ -11508,7 +11492,7 @@ MonoBehaviour:
       visible: 1
     - text: 'Daemon... Sounds so pretentious. I''m going to call you Douchemon. '
       extraData: ExtraData
-      inputSetIndex: 62
+      inputSetIndex: 60
       outputNodeIndex: -1
       outActionIndex: 1
       sprites: {fileID: 0}
@@ -11524,7 +11508,7 @@ MonoBehaviour:
     s_comment:
     - text: How thoughtful of you.
       extraData: ExtraData
-      inputSetIndex: 63
+      inputSetIndex: 61
       outputNodeIndex: 14
       outActionIndex: -1
       sprites: {fileID: 0}
@@ -11540,7 +11524,7 @@ MonoBehaviour:
     s_comment:
     - text: Maybe in another life.
       extraData: ExtraData
-      inputSetIndex: 64
+      inputSetIndex: 62
       outputNodeIndex: 14
       outActionIndex: -1
       sprites: {fileID: 0}
@@ -11563,7 +11547,7 @@ MonoBehaviour:
     param_int: 0
     param_float: 0
     ID: 62
-    outPlayerIndex: 64
+    outPlayerIndex: 62
     outActionIndex: -1
     ovrStartNode: -1
     renameDialogue: 
@@ -11577,7 +11561,21 @@ MonoBehaviour:
     param_int: 0
     param_float: 0
     ID: 65
-    outPlayerIndex: 63
+    outPlayerIndex: 61
+    outActionIndex: -1
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: showAceOfSpades
+    paramType: 0
+    gotoNode: -1
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    ID: 60
+    outPlayerIndex: -1
     outActionIndex: -1
     ovrStartNode: -1
     renameDialogue: 
@@ -11797,8 +11795,11 @@ GameObject:
   - component: {fileID: 1975460037}
   - component: {fileID: 1975460036}
   - component: {fileID: 1975460035}
+  - component: {fileID: 1975460039}
+  - component: {fileID: 1975460038}
+  - component: {fileID: 1975460040}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: ace_of_spades
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11811,13 +11812,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975460033}
-  m_LocalRotation: {x: -0.00012340446, y: 0.00012340446, z: 0.70710677, w: 0.70710677}
-  m_LocalPosition: {x: 0.01651, y: -0.16257, z: 0.00857}
-  m_LocalScale: {x: 0.004000001, y: 0.005555558, z: 0.00011111112}
+  m_LocalRotation: {x: -0.3284771, y: 0.6263204, z: 0.626102, w: 0.3283625}
+  m_LocalPosition: {x: -3.47855, y: 0.7214525, z: -1.8467518}
+  m_LocalScale: {x: 0.18000016, y: 0.25000024, z: 0.0050000018}
   m_Children: []
-  m_Father: {fileID: 14455870}
-  m_RootOrder: 22
-  m_LocalEulerAnglesHint: {x: -0.020000001, y: 0, z: 90}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: -0.020000001, y: 0, z: 124.65}
 --- !u!65 &1975460035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11829,7 +11830,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1, y: 1, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1975460036
 MeshRenderer:
@@ -11878,6 +11879,156 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975460033}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1975460038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975460033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!114 &1975460039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975460033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 091edce11aaa67a49bc6dd1738d82cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1975460040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975460033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_AceOfSpades
+  - UG_Ch1_BigLamp
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DemonLermontov
+  - UG_Ch1_DorianGrayWilde
+  - UG_Ch1_FaustGoethe
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_MacbethShakespeare
+  - UG_Ch1_Notebook
+  - UG_Ch1_ParadiseLostMilton
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - UG_Ch2_PortraitMissing
+  - Witch
+  assignedIndex: 14
+  assignedID: 85622
+  assignedDialogue: UG_Ch1_AceOfSpades
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 1
+  notuptodate: 1
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags:
+  - commentCount: 1
+    s_comment:
+    - text: Ah, there it is... Must have fallen out of my hand when I picked up the
+        deck.
+      extraData: ExtraData
+      inputSetIndex: 0
+      outputNodeIndex: 1
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 0
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: So much fuss about one little card.
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: 2
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 1
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: One little, very powerful card...
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 2
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  S_actionNodes:
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: LoadNextSceneInQueue
+    paramType: 0
+    gotoNode: -1
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    ID: 3
+    outPlayerIndex: -1
+    outActionIndex: -1
+    ovrStartNode: -1
+    renameDialogue: 
 --- !u!1001 &1986800489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12221,7 +12372,7 @@ Transform:
   m_Children:
   - {fileID: 1312388943}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2002579132
 PrefabInstance:
@@ -12851,7 +13002,7 @@ Transform:
   m_Children:
   - {fileID: 2057418534}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2074900395
 GameObject:
