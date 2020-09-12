@@ -7,10 +7,8 @@ public class GameMode : MonoBehaviour
 {
     public UIManager dialogueManager;
 
-    // TODO: consider making this more extendable
-    public GameObject pictureDisplayed1;
-    public GameObject pictureDisplayed2;
-
+    public GameObject[] keyPictureAnimations;
+    private int keyAnimationIndex;
 
     private bool hasDialoguePlayed;
     public bool isCardGameInProgress { get; set; }
@@ -18,7 +16,10 @@ public class GameMode : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        keyAnimationIndex = 0;
         hasDialoguePlayed = false;
+
+        // TODO: clean up since the variable is no longer in use
         isCardGameInProgress = false;
     }
 
@@ -32,14 +33,13 @@ public class GameMode : MonoBehaviour
             VIDE_Assign startDialogue = this.GetComponent<VIDE_Assign>();
             dialogueManager.StartDialogue(startDialogue);
         }
+    }
 
-        // TODO: DO THIS BETTER after demo
-        if (isCardGameInProgress)
-        {
-            pictureDisplayed1.SetActive(false);
-            pictureDisplayed2.SetActive(true);
-
-            isCardGameInProgress = false;
-        }
+    // Display the next animation in the queue
+    public void changeKeyAnimation()
+    {
+        keyPictureAnimations[keyAnimationIndex].SetActive(false);
+        keyAnimationIndex++;
+        keyPictureAnimations[keyAnimationIndex].SetActive(true);
     }
 }

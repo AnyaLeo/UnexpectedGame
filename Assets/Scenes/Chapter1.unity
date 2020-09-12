@@ -6851,6 +6851,9 @@ MonoBehaviour:
   dialogueManager: {fileID: 837273312}
   pictureDisplayed1: {fileID: 1527852449}
   pictureDisplayed2: {fileID: 1904074730}
+  keyPictureAnimations:
+  - {fileID: 1527852449}
+  - {fileID: 1904074730}
 --- !u!114 &1361777726
 MonoBehaviour:
   m_ObjectHideFlags: 0

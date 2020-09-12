@@ -82,13 +82,10 @@ public class PlayerMovement : MonoBehaviour
             PickupObject pickup = focus.GetComponent<PickupObject>();
             if (pickup != null)
             {
-                //pickup.Interact();
-
-                // TODO: dont bother the game mode from the player controller
-                // like seriously
+                // This is checking if we picked up the cards in Chapter 1
                 if (pickup.canBePickedUp)
                 {
-                    gameMode.isCardGameInProgress = true;
+                    gameMode.changeKeyAnimation();
                 }
             }
         }
