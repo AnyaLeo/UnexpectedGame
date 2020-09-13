@@ -35,6 +35,9 @@ public class PlayerMovement : MonoBehaviour
     private float currentVelocity = 0.0f;
     private float cameraHeight;
 
+    // For Ch1: reading the diary
+    private int diariesRead;
+
     private void Start()
     {
         playerCamera = Camera.main;
@@ -132,6 +135,14 @@ public class PlayerMovement : MonoBehaviour
                     gameMode.changeKeyAnimation();
                 }
             }
+
+            ReadableObject readable = focus.GetComponent<ReadableObject>();
+            if (readable != null && !readable.bAlreadyRead)
+            {
+                diariesRead++;
+                dialogueManager.SetNumberOfPagesFound(diariesRead);
+                readable.bAlreadyRead = true;
+            }
         }
     }
 
@@ -146,8 +157,6 @@ public class PlayerMovement : MonoBehaviour
             InteractableObject interactable =
                 hit.collider.GetComponent<InteractableObject>();
 
-            
-
             // If we hit an interactable, display the prompt
             // But only if we are not in the middle of a dialogue
             if (interactable != null && !VD.isActive)
@@ -160,6 +169,7 @@ public class PlayerMovement : MonoBehaviour
                 focus = null;
                 SetPromptText("");
             }
+
         }
         else
         {

@@ -16,6 +16,13 @@ public class ReadableObject : InteractableObject
     private GameObject letterSpawned;
     private bool isPlayerInteracting;
 
+    public bool bAlreadyRead { get; set; }
+
+    private void Start()
+    {
+        bAlreadyRead = false;
+    }
+
     public override void Interact()
     {
         if (letterPrefab != null)

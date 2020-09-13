@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 using VIDE_Data; // to retrieve node data
 
 public class UIManager : MonoBehaviour
@@ -17,6 +18,9 @@ public class UIManager : MonoBehaviour
     public Text[] textPlayer;
     public Text labelNPC;
 
+    // UI for the pages found in chapter 2
+    public GameObject Ch2_pagesFound;
+
     private int selectedChoiceIndex;
     private int playerChoiceCount;
 
@@ -25,6 +29,11 @@ public class UIManager : MonoBehaviour
     {
         DisableContainers();
         playerChoiceCount = 0; 
+
+        if (Ch2_pagesFound != null)
+        {
+            Ch2_pagesFound.SetActive(false);
+        }
     }
 
     // Update is called once per frame
@@ -169,6 +178,28 @@ public class UIManager : MonoBehaviour
         if (labelNPC != null)
         {
             labelNPC.text = newLabel;
+        }
+    }
+
+    public void SetPagesFoundUI(bool isActive)
+    {
+        if (Ch2_pagesFound != null)
+        {
+            Debug.Log("Setting pages to active: " + isActive);
+            Ch2_pagesFound.SetActive(isActive);
+        }
+    }
+
+    public void SetNumberOfPagesFound(int number)
+    {
+        if (Ch2_pagesFound != null)
+        {
+            TextMeshProUGUI textComp = Ch2_pagesFound.GetComponent<TextMeshProUGUI>();
+
+            if(textComp != null)
+            {
+                textComp.text = "Pages found: " + number + "/5";
+            }
         }
     }
 } 
