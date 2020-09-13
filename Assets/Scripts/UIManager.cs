@@ -85,14 +85,6 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    public void CallNextNode()
-    {
-        if (VD.isActive)
-        {
-            VD.Next();
-        }
-    }
-
     void Begin()
     {
         VD.OnNodeChange += UpdateUI;

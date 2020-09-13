@@ -39,6 +39,8 @@ public class PlayerMovement : MonoBehaviour
     // For Ch1: reading the diary
     private int diariesRead;
 
+    private ReadableObject readable;
+
     private void Start()
     {
         playerCamera = Camera.main;
@@ -75,7 +77,11 @@ public class PlayerMovement : MonoBehaviour
         // To continue dialogue, press return
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
         {
-            dialogueManager.CallNextNode();
+            Debug.Log("next");
+            if (VD.isActive)
+            {
+                VD.Next();
+            }
         }
 
         if (Input.GetKeyDown(KeyCode.C))
@@ -90,6 +96,20 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             smoothCrouching(cameraHeight);
+        }
+
+        // For Chapter 3 (quick & dirty fix)
+        // Initiate the dialogue right after we stopped interacting with the textbook
+        // The dialogue will be attached to the Player for Chapter 3
+        if (readable != null 
+            && readable.Ch3_stoppedInteracting)
+        {
+            if (!VD.isActive)
+            {
+                VIDE_Assign dialogue = gameObject.GetComponent<VIDE_Assign>();
+                dialogueManager.StartDialogue(dialogue);
+                readable.Ch3_stoppedInteracting = false;
+            }
         }
     }
 
@@ -138,7 +158,7 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
-            ReadableObject readable = focus.GetComponent<ReadableObject>();
+            readable = focus.GetComponent<ReadableObject>();
             if (readable != null && !readable.bAlreadyRead)
             {
                 diariesRead++;

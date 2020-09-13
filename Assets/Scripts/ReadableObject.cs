@@ -16,11 +16,14 @@ public class ReadableObject : InteractableObject
     private GameObject letterSpawned;
     private bool isPlayerInteracting;
 
+    public bool Ch3_stoppedInteracting;
+
     public bool bAlreadyRead { get; set; }
 
     private void Start()
     {
         bAlreadyRead = false;
+        Ch3_stoppedInteracting = false;
     }
 
     public override void Interact()
@@ -65,6 +68,7 @@ public class ReadableObject : InteractableObject
         {
             Destroy(letterSpawned);
             isPlayerInteracting = false;
+            Ch3_stoppedInteracting = true;
         }
     }
 
