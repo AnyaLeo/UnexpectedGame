@@ -17,7 +17,7 @@ public class LoadManager : MonoBehaviour
     IEnumerator LoadScene(int nextScene)
     {
         transitionAnim.SetTrigger("end");
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSeconds(transitionTime+0.5f);
         SceneManager.LoadScene(nextScene);
     }
 
