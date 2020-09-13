@@ -41,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
 
     private ReadableObject readable;
 
+    private int chapterIndex;
+
     private void Start()
     {
         playerCamera = Camera.main;
@@ -48,6 +50,8 @@ public class PlayerMovement : MonoBehaviour
 
         bIsCrouching = false;
         cameraHeight = playerCamera.transform.localPosition.y;
+
+        chapterIndex = SceneManager.GetActiveScene().buildIndex;
     }
 
     // Update is called once per frame
@@ -72,6 +76,20 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.E))
         {
             interactWithFocus();
+        }
+
+        // Ch 2: make the UI disappear when reading the letter
+        // and reappear when the letter is closed
+        if (readable != null)
+        {
+            if (readable.isPlayerInteracting)
+            {
+                dialogueManager.SetPagesFoundUI(false);
+            }
+            else
+            {
+                dialogueManager.SetPagesFoundUI(true);
+            }
         }
 
         // To continue dialogue, press return
@@ -152,7 +170,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 // This is checking if we picked up the cards in Chapter 1
                 // Chapter 1 has a build index of 1
-                if (pickup.canBePickedUp && SceneManager.GetActiveScene().buildIndex == 1)
+                if (pickup.canBePickedUp && chapterIndex == 1)
                 {
                     gameMode.changeKeyAnimation();
                 }

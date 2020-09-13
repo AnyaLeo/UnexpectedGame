@@ -14,7 +14,7 @@ public class ReadableObject : InteractableObject
     public Canvas canvas;
 
     private GameObject letterSpawned;
-    private bool isPlayerInteracting;
+    public bool isPlayerInteracting { get; set; }
 
     public bool Ch3_stoppedInteracting;
 
