@@ -6779,10 +6779,12 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_AceOfSpades
   - UG_Ch1_BigLamp
   - UG_Ch1_Candles
   - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
   - UG_Ch1_DaemonPlaying
   - UG_Ch1_DemonLermontov
   - UG_Ch1_DorianGrayWilde
@@ -6794,8 +6796,12 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch2_PortraitMissing
+  - UG_Ch2_StartGame
+  - UG_Ch3_StartGame
+  - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 26
+  assignedIndex: 28
   assignedID: 19702
   assignedDialogue: UG_Ch1_Sofa
   interactionCount: 0
@@ -7892,6 +7898,7 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_AceOfSpades
   - UG_Ch1_BigLamp
   - UG_Ch1_Candles
   - UG_Ch1_Cards
@@ -7909,8 +7916,11 @@ MonoBehaviour:
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
   - UG_Ch2_PortraitMissing
+  - UG_Ch2_StartGame
+  - UG_Ch3_StartGame
+  - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 17
+  assignedIndex: 18
   assignedID: 62797
   assignedDialogue: UG_Ch1_DaemonBeforePlaying
   interactionCount: 0
@@ -10558,6 +10568,9 @@ MonoBehaviour:
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
   - UG_Ch2_PortraitMissing
+  - UG_Ch2_StartGame
+  - UG_Ch3_StartGame
+  - UG_Ch3_Textbook
   - Witch
   assignedIndex: 20
   assignedID: 92710
@@ -10614,12 +10627,20 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 1
+  - commentCount: 2
     s_comment:
     - text: You wound me. Everybody remembers how to play Shtoss.
       extraData: ExtraData
       inputSetIndex: 2
       outputNodeIndex: 3
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I can't seem to remember. Can you remind me?
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: 63
       outActionIndex: -1
       sprites: {fileID: 0}
       audios: {fileID: 0}
@@ -10632,10 +10653,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Good. Let's begin.
+    - text: Good. Let's begin the game.
       extraData: ExtraData
       inputSetIndex: 3
-      outputNodeIndex: 4
+      outputNodeIndex: 67
       outActionIndex: -1
       sprites: {fileID: 0}
       audios: {fileID: 0}
@@ -10848,7 +10869,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Not going to ask me mine?
+    - text: Not going to ask about my name?
       extraData: ExtraData
       inputSetIndex: 16
       outputNodeIndex: 17
@@ -11384,8 +11405,8 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: I don't trust your kind. Where is the ace of spades? I haven't seen an
-        entire game.
+    - text: I don't trust your kind. Where is the ace of spades? I haven't seen it
+        for an entire game.
       extraData: ExtraData
       inputSetIndex: 46
       outputNodeIndex: 47
@@ -11626,7 +11647,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 2
     s_comment:
-    - text: I take it you couldn't have picked a more shady name?
+    - text: I take it even more suspicious names were taken?
       extraData: ExtraData
       inputSetIndex: 60
       outputNodeIndex: -1
@@ -11634,7 +11655,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: 'Daemon... Sounds so pretentious. I''m going to call you Douchemon. '
+    - text: 'Daemon? Sounds so douchey. I''m going to call you Douchemon. '
       extraData: ExtraData
       inputSetIndex: 60
       outputNodeIndex: -1
@@ -11666,7 +11687,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Maybe in another life.
+    - text: You see right through me.
       extraData: ExtraData
       inputSetIndex: 62
       outputNodeIndex: 14
@@ -11680,6 +11701,289 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 0
+  - commentCount: 5
+    s_comment:
+    - text: The amnesia must have really gotten to you.
+      extraData: ExtraData
+      inputSetIndex: 63
+      outputNodeIndex: 64
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: 'It''s a simple game, really. We start with five cards each. '
+      extraData: ExtraData
+      inputSetIndex: 63
+      outputNodeIndex: -1
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: The higher the value, the more powerful the card is, with the ace of
+        spades being the highest card.
+      extraData: ExtraData
+      inputSetIndex: 63
+      outputNodeIndex: -1
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: It is easier to explain when we start playing.
+      extraData: ExtraData
+      inputSetIndex: 63
+      outputNodeIndex: -1
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: You'll pick it up as we go.
+      extraData: ExtraData
+      inputSetIndex: 63
+      outputNodeIndex: -1
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 61
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: So eager to start playing against someone who does not know the rules.
+      extraData: ExtraData
+      inputSetIndex: 64
+      outputNodeIndex: 65
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 67
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: That's what I do.
+      extraData: ExtraData
+      inputSetIndex: 65
+      outputNodeIndex: 66
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 68
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Alright, we can figure it out as we go.
+      extraData: ExtraData
+      inputSetIndex: 66
+      outputNodeIndex: 3
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 69
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 2
+    s_comment:
+    - text: 'Sounds good. '
+      extraData: ExtraData
+      inputSetIndex: 67
+      outputNodeIndex: -1
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: How exactly are we playing? I have the cards, and you are literally in
+        a portrait.
+      extraData: ExtraData
+      inputSetIndex: 67
+      outputNodeIndex: 68
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 70
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Hah.
+      extraData: ExtraData
+      inputSetIndex: 68
+      outputNodeIndex: 69
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 71
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: What?
+      extraData: ExtraData
+      inputSetIndex: 69
+      outputNodeIndex: 70
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 72
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 2
+    s_comment:
+    - text: Nothing. It's just amusing that I have to explain this to you.
+      extraData: ExtraData
+      inputSetIndex: 70
+      outputNodeIndex: 71
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: The cards are from a different dimension. They transcend time and space
+        because they have no real home.
+      extraData: ExtraData
+      inputSetIndex: 70
+      outputNodeIndex: -1
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 73
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: No real home. That sounds almost sad.
+      extraData: ExtraData
+      inputSetIndex: 71
+      outputNodeIndex: 73
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: How did you come to be in posession of such an artifact again?
+      extraData: ExtraData
+      inputSetIndex: 71
+      outputNodeIndex: 72
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 74
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: I have my ways.
+      extraData: ExtraData
+      inputSetIndex: 72
+      outputNodeIndex: 76
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 75
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Perhaps to some.
+      extraData: ExtraData
+      inputSetIndex: 73
+      outputNodeIndex: 74
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 76
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Not to you?
+      extraData: ExtraData
+      inputSetIndex: 74
+      outputNodeIndex: 75
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 77
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: I have to know what home feels like to miss it.
+      extraData: ExtraData
+      inputSetIndex: 75
+      outputNodeIndex: 76
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 78
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: ...
+      extraData: ExtraData
+      inputSetIndex: 76
+      outputNodeIndex: 4
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 79
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
   S_actionNodes:
   - pauseHere: 0
     gameObjectName: UIManager
