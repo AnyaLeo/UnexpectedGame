@@ -6976,6 +6976,7 @@ GameObject:
   - component: {fileID: 1361777726}
   - component: {fileID: 1361777725}
   - component: {fileID: 1361777728}
+  - component: {fileID: 1361777729}
   m_Layer: 0
   m_Name: GameMode
   m_TagString: Untagged
@@ -7058,12 +7059,92 @@ MonoBehaviour:
   defaultNPCSprite: {fileID: 0}
   defaultPlayerSprite: {fileID: 0}
   targetManager: {fileID: 0}
-  preload: 0
+  preload: 1
   notuptodate: 0
   startp: 0
   loadtag: 
   langs: []
-  S_playerDiags: []
+  S_playerDiags:
+  - commentCount: 1
+    s_comment:
+    - text: Ugh, my head...
+      extraData: ExtraData
+      inputSetIndex: 0
+      outputNodeIndex: 1
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 0
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: I must have had a wild night. It hurts so much.
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: 2
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 1
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: What is this room? I don't remember getting here.
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: 3
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 2
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: ...
+      extraData: ExtraData
+      inputSetIndex: 3
+      outputNodeIndex: 4
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 3
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: I don't see a door. How do I get out?
+      extraData: ExtraData
+      inputSetIndex: 4
+      outputNodeIndex: -1
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 4
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
   S_actionNodes: []
 --- !u!4 &1361777727
 Transform:
@@ -7093,6 +7174,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 454434831}
   transitionTime: 1
+--- !u!114 &1361777729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361777724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6688efcc931d2bf4e9bb67fffca63ebf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  portraitAnim: {fileID: 1904074731}
 --- !u!1001 &1371882195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7930,7 +8024,7 @@ MonoBehaviour:
   defaultPlayerSprite: {fileID: 0}
   targetManager: {fileID: 0}
   preload: 1
-  notuptodate: 0
+  notuptodate: 1
   startp: 0
   loadtag: 
   langs: []
@@ -10582,7 +10676,7 @@ MonoBehaviour:
   defaultPlayerSprite: {fileID: 0}
   targetManager: {fileID: 0}
   preload: 1
-  notuptodate: 0
+  notuptodate: 1
   startp: 0
   loadtag: 
   langs: []
