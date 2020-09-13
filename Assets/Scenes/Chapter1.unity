@@ -8009,6 +8009,7 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch1_TEST_DaemonAnim
   - UG_Ch2_PortraitMissing
   - UG_Ch2_StartGame
   - UG_Ch3_StartGame
@@ -10193,14 +10194,15 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch1_TEST_DaemonAnim
   - UG_Ch2_PortraitMissing
   - UG_Ch2_StartGame
   - UG_Ch3_StartGame
   - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 20
-  assignedID: 92710
-  assignedDialogue: UG_Ch1_DaemonPlaying
+  assignedIndex: 31
+  assignedID: 39533
+  assignedDialogue: UG_Ch1_TEST_DaemonAnim
   interactionCount: 0
   alias: 
   overrideStartNode: -1
