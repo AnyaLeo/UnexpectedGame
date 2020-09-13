@@ -541,7 +541,7 @@ Transform:
   - {fileID: 670830318}
   - {fileID: 1682081042}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &104538069
 PrefabInstance:
@@ -2842,7 +2842,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &519142005
 PrefabInstance:
@@ -3698,6 +3698,241 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7a7a8492b5362f429051f051378a457, type: 3}
+--- !u!1 &668074487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 668074495}
+  - component: {fileID: 668074494}
+  - component: {fileID: 668074493}
+  - component: {fileID: 668074492}
+  - component: {fileID: 668074489}
+  - component: {fileID: 668074488}
+  m_Layer: 0
+  m_Name: ace_of_spades
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &668074488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668074487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2df4666698714b41aa83f72c5c5bf6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!114 &668074489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668074487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_AceOfSpades
+  - UG_Ch1_BigLamp
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DemonLermontov
+  - UG_Ch1_DorianGrayWilde
+  - UG_Ch1_FaustGoethe
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_MacbethShakespeare
+  - UG_Ch1_Notebook
+  - UG_Ch1_ParadiseLostMilton
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - UG_Ch2_PortraitMissing
+  - UG_Ch2_StartGame
+  - UG_Ch3_Textbook
+  - Witch
+  assignedIndex: 14
+  assignedID: 85622
+  assignedDialogue: UG_Ch1_AceOfSpades
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 1
+  notuptodate: 1
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags:
+  - commentCount: 1
+    s_comment:
+    - text: Ah, there it is... Must have fallen out of my hand when I picked up the
+        deck.
+      extraData: ExtraData
+      inputSetIndex: 0
+      outputNodeIndex: 1
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 0
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: So much fuss about one little card.
+      extraData: ExtraData
+      inputSetIndex: 1
+      outputNodeIndex: 2
+      outActionIndex: -1
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 1
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: One little, very powerful card...
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: -1
+      outActionIndex: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 2
+    pTag: 
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  S_actionNodes:
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: LoadNextSceneInQueue
+    paramType: 0
+    gotoNode: -1
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    ID: 3
+    outPlayerIndex: -1
+    outActionIndex: -1
+    ovrStartNode: -1
+    renameDialogue: 
+--- !u!65 &668074492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668074487}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &668074493
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668074487}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b9f91a4c52ba00a40b08cad05196f175, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &668074494
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668074487}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &668074495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668074487}
+  m_LocalRotation: {x: -0.3284771, y: 0.6263204, z: 0.626102, w: 0.3283625}
+  m_LocalPosition: {x: -5.297, y: 0.722, z: -0.59}
+  m_LocalScale: {x: 0.18000016, y: 0.25000024, z: 0.0050000018}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: -0.020000001, y: 0, z: 124.65}
 --- !u!1 &670830313 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b7a7a8492b5362f429051f051378a457,
@@ -4404,6 +4639,7 @@ MonoBehaviour:
   - {fileID: 1991119474}
   - {fileID: 1052406360}
   labelNPC: {fileID: 1849870919}
+  Ch2_pagesFound: {fileID: 0}
 --- !u!114 &837273313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6515,7 +6751,7 @@ Transform:
   - {fileID: 23961911}
   - {fileID: 1112822032}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1292693011
 PrefabInstance:
@@ -6850,6 +7086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 837273312}
   keyPictureAnimations: []
+  aceOfSpades: {fileID: 0}
 --- !u!114 &1361777726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7105,7 +7342,7 @@ Transform:
   - {fileID: 1310714928}
   - {fileID: 1049436253}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1397345038
 PrefabInstance:
@@ -9185,10 +9422,12 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_AceOfSpades
   - UG_Ch1_BigLamp
   - UG_Ch1_Candles
   - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
   - UG_Ch1_DaemonPlaying
   - UG_Ch1_DemonLermontov
   - UG_Ch1_DorianGrayWilde
@@ -9200,8 +9439,10 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch2_PortraitMissing
+  - UG_Ch2_StartGame
   - Witch
-  assignedIndex: 20
+  assignedIndex: 22
   assignedID: 95733
   assignedDialogue: UG_Ch1_DorianGrayWilde
   interactionCount: 0
@@ -9412,78 +9653,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 374550399}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1753917355
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1753917354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  diags:
-  - Charlie
-  - CommentModifier
-  - CrazyCap
-  - DEMO_Condition
-  - demo_Narration
-  - Example3Dialogue
-  - Example4_dialogue
-  - Item_LookUp
-  - Laura
-  - MrCube
-  - NPCOnly
-  - QuestChartDemo
-  - TableDialogue
-  - TriggeredDude
-  - UG_Ch1_BigLamp
-  - UG_Ch1_Candles
-  - UG_Ch1_Cards
-  - UG_Ch1_DaemonBeforePlaying
-  - UG_Ch1_DaemonPlaying
-  - UG_Ch1_DemonLermontov
-  - UG_Ch1_DorianGrayWilde
-  - UG_Ch1_FaustGoethe
-  - UG_Ch1_InkwellQuill
-  - UG_Ch1_MacbethShakespeare
-  - UG_Ch1_Notebook
-  - UG_Ch1_ParadiseLostMilton
-  - UG_Ch1_Sofa
-  - UG_Ch1_StartGame
-  - UG_Ch1_Teapot
-  - Witch
-  assignedIndex: 24
-  assignedID: 1333
-  assignedDialogue: UG_Ch1_Notebook
-  interactionCount: 0
-  alias: 
-  overrideStartNode: -1
-  defaultNPCSprite: {fileID: 0}
-  defaultPlayerSprite: {fileID: 0}
-  targetManager: {fileID: 0}
-  preload: 0
-  notuptodate: 0
-  startp: 0
-  loadtag: 
-  langs: []
-  S_playerDiags: []
-  S_actionNodes: []
---- !u!114 &1753917356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1753917354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupRelyingOnUs: {fileID: 0}
 --- !u!65 &1753917357
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9497,6 +9666,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.006315287, y: 0.0038311821, z: 0.00029}
   m_Center: {x: 0, y: -0.0000000014551912, z: 0.00039749304}
+--- !u!114 &1753917358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753917354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3e699c63d687024fb9f776d5ba0baa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 668074488}
+  letterContent: 'This is a scary page about stuff.
+
+    TODO: change the prefab
+    so they writing is not fancy cuz textbooks amiright'
+  letterPrefab: {fileID: 1015245224261210375, guid: cb4a70aa4b73800488add39fb1f4e498,
+    type: 3}
+  canvas: {fileID: 1141108723}
 --- !u!1 &1758243705 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: eca32bb59173c5944b1754c4b8dfe6db,
@@ -9950,7 +10139,7 @@ Transform:
   m_LocalScale: {x: 20, y: 0.5, z: 20}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1849124717
 PrefabInstance:
@@ -12094,7 +12283,7 @@ Transform:
   m_Children:
   - {fileID: 1312388943}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2002579132
 PrefabInstance:
@@ -12260,7 +12449,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &2054681284
 PrefabInstance:
@@ -12724,7 +12913,7 @@ Transform:
   m_Children:
   - {fileID: 2057418534}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2074900395
 GameObject:
@@ -12952,7 +13141,7 @@ PrefabInstance:
     - target: {fileID: 405260871857628459, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.54
+      value: -2.8
       objectReference: {fileID: 0}
     - target: {fileID: 405260871857628459, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
@@ -12962,7 +13151,7 @@ PrefabInstance:
     - target: {fileID: 405260871857628459, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.309
+      value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 405260871857628459, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
@@ -12972,17 +13161,17 @@ PrefabInstance:
     - target: {fileID: 405260871857628459, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.9993786
       objectReference: {fileID: 0}
     - target: {fileID: 405260871857628459, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 405260871857628459, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: -0.035248227
       objectReference: {fileID: 0}
     - target: {fileID: 405260871857628459, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
@@ -12997,7 +13186,7 @@ PrefabInstance:
     - target: {fileID: 405260871857628459, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 184.04
       objectReference: {fileID: 0}
     - target: {fileID: 405260871857628459, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}

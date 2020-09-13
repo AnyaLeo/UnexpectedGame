@@ -50,6 +50,13 @@ public class ReadableObject : InteractableObject
         {
             Debug.Log("ReadableObject: tried to spawn a letter without letter prefab specified");
         }
+
+        // Ch3: Quick and dirty fix to allow us to pick up ace of spades 
+        // after reading the textbook
+        if(pickupRelyingOnUs != null)
+        {
+            pickupRelyingOnUs.canBePickedUp = true;
+        }
     }
 
     private void StopInteracting()

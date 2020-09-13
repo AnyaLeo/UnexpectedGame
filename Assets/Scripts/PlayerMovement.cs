@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using VIDE_Data;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -130,7 +131,8 @@ public class PlayerMovement : MonoBehaviour
             if (pickup != null)
             {
                 // This is checking if we picked up the cards in Chapter 1
-                if (pickup.canBePickedUp)
+                // Chapter 1 has a build index of 1
+                if (pickup.canBePickedUp && SceneManager.GetActiveScene().buildIndex == 1)
                 {
                     gameMode.changeKeyAnimation();
                 }
