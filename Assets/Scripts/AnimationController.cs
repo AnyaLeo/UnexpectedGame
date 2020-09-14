@@ -31,6 +31,18 @@ public class AnimationController : MonoBehaviour
         portraitAnim.SetTrigger("exit");
     }
 
+    public void annoyed()
+    {
+        portraitAnim.SetTrigger("annoyed");
+    }
 
-  
+    public void softSmile()
+    {
+        portraitAnim.SetTrigger("soft smile");
+    }
+
+    public void softestSmile()
+    {
+        portraitAnim.SetTrigger("softest smile");
+    }
 }
