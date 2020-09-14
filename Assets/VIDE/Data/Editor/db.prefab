@@ -43,55 +43,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268dc70b105993846a123be43345df63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileIndex: 20
+  fileIndex: 37
   skinIndex: 0
   loadTag: 
   startID: 0
   curFocusID: 0
-  currentID: 92710
+  currentID: 49822
   autosave: 1
   previewPanning: 0
-  currentDiag: 20
+  currentDiag: 37
   locEdit: 0
   pNodeID: 18
   aNodeID: 2
   S_playerDiags:
   - commentCount: 1
     s_comment:
-    - text: I've got the cards. How do we play?
+    - text: Aren't you a sight for sore eyes?
       extraData: ExtraData
       inputSetIndex: 0
       outputNodeIndex: 1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 0
-    rect:
-      serializedVersion: 2
-      x: -130
-      y: -190
-      width: 348
-      height: 139
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 2
-    s_comment:
-    - text: Just a simple game of Shtoss.
-      extraData: ExtraData
-      inputSetIndex: 1
-      outputNodeIndex: 2
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -103,28 +73,13 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: You remember how to play Shtoss, correct?
-      extraData: ExtraData
-      inputSetIndex: 1
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 1
+    ID: 0
     rect:
       serializedVersion: 2
-      x: 220
-      y: 80
+      x: -410
+      y: -360
       width: 348
-      height: 163
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -133,10 +88,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 2
     s_comment:
-    - text: You wound me. Everybody remembers how to play Shtoss.
+    - text: So eager to get your bottom kicked at cards?
       extraData: ExtraData
-      inputSetIndex: 2
-      outputNodeIndex: 3
+      inputSetIndex: 1
+      outputNodeIndex: 2
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -148,10 +103,10 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: I can't seem to remember. Can you remind me?
+    - text: Have you finally accepted how much you love my dashing personality?
       extraData: ExtraData
-      inputSetIndex: 2
-      outputNodeIndex: 63
+      inputSetIndex: 1
+      outputNodeIndex: 4
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -159,17 +114,17 @@ MonoBehaviour:
         x: 300
         y: 97
         width: 30
-        height: 33
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 2
+    ID: 1
     rect:
       serializedVersion: 2
-      x: -20
-      y: 270
+      x: -380
+      y: -70
       width: 348
-      height: 173
+      height: 188
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -178,11 +133,41 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Good. Let's begin the game.
+    - text: "It\u2019s the opposite, actually."
+      extraData: ExtraData
+      inputSetIndex: 2
+      outputNodeIndex: 3
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 2
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: -150
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Good luck with that.
       extraData: ExtraData
       inputSetIndex: 3
-      outputNodeIndex: -1
-      outActionIndex: 3
+      outputNodeIndex: 6
+      outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -196,8 +181,8 @@ MonoBehaviour:
     ID: 3
     rect:
       serializedVersion: 2
-      x: 30
-      y: 550
+      x: 480
+      y: -150
       width: 348
       height: 129
     pTag: 
@@ -205,10 +190,11 @@ MonoBehaviour:
     sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 0
+    isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: One game, the winner takes it all. Seems easy enough.
+    - text: "No, but I do love some peace and quiet that will come after I don\u2019t
+        have to worry about you."
       extraData: ExtraData
       inputSetIndex: 4
       outputNodeIndex: 5
@@ -219,26 +205,26 @@ MonoBehaviour:
         x: 301
         y: 63
         width: 30
-        height: 33
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 4
     rect:
       serializedVersion: 2
-      x: 10
-      y: 1390
+      x: 110
+      y: 100
       width: 348
-      height: 139
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 1
+    isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: That would make it far less interesting. How about playing three times?
+    - text: Celebrating your victory before actually winning? That never goes wrong.
       extraData: ExtraData
       inputSetIndex: 5
       outputNodeIndex: 6
@@ -256,55 +242,10 @@ MonoBehaviour:
     ID: 5
     rect:
       serializedVersion: 2
-      x: 10
-      y: 1560
+      x: 510
+      y: 110
       width: 348
       height: 154
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: I haven't realized you enjoyed my company so much.
-      extraData: ExtraData
-      inputSetIndex: 6
-      outputNodeIndex: -1
-      outActionIndex: 6
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Not confident in your abilities?
-      extraData: ExtraData
-      inputSetIndex: 6
-      outputNodeIndex: 8
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 97
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 6
-    rect:
-      serializedVersion: 2
-      x: 10
-      y: 1720
-      width: 348
-      height: 163
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -313,10 +254,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Don't flatter yourself. Are you in or not?
+    - text: You are late. What have you been doing?
       extraData: ExtraData
-      inputSetIndex: 7
-      outputNodeIndex: 11
+      inputSetIndex: 6
+      outputNodeIndex: 7
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -328,11 +269,11 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 7
+    ID: 6
     rect:
       serializedVersion: 2
-      x: 580
-      y: 1580
+      x: 1030
+      y: 140
       width: 348
       height: 139
     pTag: 
@@ -343,7 +284,38 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Quite the contrary. I'm looking out for you.
+    - text: Just catching up on some reading.
+      extraData: ExtraData
+      inputSetIndex: 7
+      outputNodeIndex: -1
+      outActionIndex: 0
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 7
+    rect:
+      serializedVersion: 2
+      x: 1020
+      y: 360
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "Ah, of course. I forgot you don\u2019t have much entertainment in that
+        room."
       extraData: ExtraData
       inputSetIndex: 8
       outputNodeIndex: 9
@@ -354,47 +326,62 @@ MonoBehaviour:
         x: 301
         y: 63
         width: 30
-        height: 33
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 8
     rect:
       serializedVersion: 2
-      x: 570
-      y: 1760
+      x: 1010
+      y: 770
       width: 348
-      height: 139
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 1
+  - commentCount: 2
     s_comment:
-    - text: For me? You must be our of your mind.
+    - text: And whose fault is that?
       extraData: ExtraData
       inputSetIndex: 9
-      outputNodeIndex: 10
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 1
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 301
         y: 63
         width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: I have myself and my quick wit. What more would I desire?
+      extraData: ExtraData
+      inputSetIndex: 9
+      outputNodeIndex: -1
+      outActionIndex: 2
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 300
+        y: 87
+        width: 30
         height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 9
+    ID: 10
     rect:
       serializedVersion: 2
-      x: 590
-      y: 1970
+      x: 1000
+      y: 990
       width: 348
-      height: 139
+      height: 163
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -403,7 +390,8 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: What if I am?
+    - text: "Don\u2019t look at me like that. It is not my responsibility to amuse
+        you."
       extraData: ExtraData
       inputSetIndex: 10
       outputNodeIndex: 11
@@ -414,17 +402,17 @@ MonoBehaviour:
         x: 301
         y: 63
         width: 30
-        height: 23
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 10
+    ID: 11
     rect:
       serializedVersion: 2
-      x: 590
-      y: 2110
+      x: 1670
+      y: 860
       width: 348
-      height: 129
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -433,7 +421,8 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Alright, I'll bite. Three games it is.
+    - text: "It should be. It\u2019s been so long, I can\u2019t even remember the
+        last time I had guests!"
       extraData: ExtraData
       inputSetIndex: 11
       outputNodeIndex: 12
@@ -444,107 +433,17 @@ MonoBehaviour:
         x: 301
         y: 63
         width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 11
-    rect:
-      serializedVersion: 2
-      x: 1150
-      y: 1650
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: What did you say your name was again?
-      extraData: ExtraData
-      inputSetIndex: 12
-      outputNodeIndex: 13
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 12
-    rect:
-      serializedVersion: 2
-      x: 1150
-      y: 1790
-      width: 348
-      height: 139
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Daemon.
-      extraData: ExtraData
-      inputSetIndex: 13
-      outputNodeIndex: 60
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 13
-    rect:
-      serializedVersion: 2
-      x: 1150
-      y: 1950
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: ...
-      extraData: ExtraData
-      inputSetIndex: 14
-      outputNodeIndex: 15
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 14
     rect:
       serializedVersion: 2
-      x: 1150
-      y: 2090
+      x: 2060
+      y: 870
       width: 348
-      height: 129
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -553,10 +452,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: ...
+    - text: "Quite tragic, don\u2019t you think?"
       extraData: ExtraData
-      inputSetIndex: 15
-      outputNodeIndex: 16
+      inputSetIndex: 12
+      outputNodeIndex: 13
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -571,38 +470,8 @@ MonoBehaviour:
     ID: 15
     rect:
       serializedVersion: 2
-      x: 1150
-      y: 2240
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Not going to ask about my name?
-      extraData: ExtraData
-      inputSetIndex: 16
-      outputNodeIndex: 17
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 16
-    rect:
-      serializedVersion: 2
-      x: 1150
-      y: 2390
+      x: 2450
+      y: 880
       width: 348
       height: 129
     pTag: 
@@ -613,10 +482,40 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Well, do you remember it?
+    - text: With your memory span of a goldfish? Tragic indeed.
       extraData: ExtraData
-      inputSetIndex: 17
-      outputNodeIndex: 18
+      inputSetIndex: 13
+      outputNodeIndex: 14
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 16
+    rect:
+      serializedVersion: 2
+      x: 2820
+      y: 890
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Rude.
+      extraData: ExtraData
+      inputSetIndex: 14
+      outputNodeIndex: 20
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -631,55 +530,10 @@ MonoBehaviour:
     ID: 17
     rect:
       serializedVersion: 2
-      x: 1150
-      y: 2540
+      x: 3220
+      y: 900
       width: 348
       height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: ...No.
-      extraData: ExtraData
-      inputSetIndex: 18
-      outputNodeIndex: 19
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: I wouldn't tell you even if I did.
-      extraData: ExtraData
-      inputSetIndex: 18
-      outputNodeIndex: 19
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 87
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 18
-    rect:
-      serializedVersion: 2
-      x: 1150
-      y: 2690
-      width: 348
-      height: 153
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -688,10 +542,40 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Amusing.
+    - text: I have myself and my quick wit. What more would I desire?
       extraData: ExtraData
-      inputSetIndex: 19
-      outputNodeIndex: 20
+      inputSetIndex: 15
+      outputNodeIndex: 16
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 18
+    rect:
+      serializedVersion: 2
+      x: 1680
+      y: 1110
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Some humbleness, perhaps.
+      extraData: ExtraData
+      inputSetIndex: 16
+      outputNodeIndex: 17
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -706,8 +590,8 @@ MonoBehaviour:
     ID: 19
     rect:
       serializedVersion: 2
-      x: 1600
-      y: 2700
+      x: 2060
+      y: 1130
       width: 348
       height: 129
     pTag: 
@@ -718,10 +602,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: You seem very good at this game.
+    - text: And your recognition of my talents.
       extraData: ExtraData
-      inputSetIndex: 20
-      outputNodeIndex: 21
+      inputSetIndex: 17
+      outputNodeIndex: 18
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -736,8 +620,8 @@ MonoBehaviour:
     ID: 20
     rect:
       serializedVersion: 2
-      x: 1600
-      y: 2850
+      x: 2440
+      y: 1130
       width: 348
       height: 129
     pTag: 
@@ -748,10 +632,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: I have a gift for cards.
+    - text: Not going to happen.
       extraData: ExtraData
-      inputSetIndex: 21
-      outputNodeIndex: 22
+      inputSetIndex: 18
+      outputNodeIndex: 19
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -766,8 +650,8 @@ MonoBehaviour:
     ID: 21
     rect:
       serializedVersion: 2
-      x: 1600
-      y: 3010
+      x: 2830
+      y: 1130
       width: 348
       height: 129
     pTag: 
@@ -776,12 +660,12 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 2
+  - commentCount: 1
     s_comment:
-    - text: Seems like a useless gift.
+    - text: "We\u2019ll see about that."
       extraData: ExtraData
-      inputSetIndex: 22
-      outputNodeIndex: 23
+      inputSetIndex: 19
+      outputNodeIndex: 20
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -793,28 +677,13 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: That makes you sound like a douche.
-      extraData: ExtraData
-      inputSetIndex: 22
-      outputNodeIndex: 25
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 87
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
     ID: 22
     rect:
       serializedVersion: 2
-      x: 1600
-      y: 3170
+      x: 3220
+      y: 1140
       width: 348
-      height: 163
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -823,10 +692,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Not when you are betting your freedom on it.
+    - text: Anyway. Should we start the game?
       extraData: ExtraData
-      inputSetIndex: 23
-      outputNodeIndex: 24
+      inputSetIndex: 20
+      outputNodeIndex: 21
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -841,8 +710,38 @@ MonoBehaviour:
     ID: 23
     rect:
       serializedVersion: 2
-      x: 2040
-      y: 2950
+      x: 3650
+      y: 1140
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Yes, thanks for dealing the hands already.
+      extraData: ExtraData
+      inputSetIndex: 21
+      outputNodeIndex: 22
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 24
+    rect:
+      serializedVersion: 2
+      x: 3650
+      y: 1340
       width: 348
       height: 139
     pTag: 
@@ -853,40 +752,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: "Touch\xE9."
+    - text: You look nervous. Afraid your gift will fail you this time?
       extraData: ExtraData
-      inputSetIndex: 24
-      outputNodeIndex: 27
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 24
-    rect:
-      serializedVersion: 2
-      x: 2420
-      y: 2960
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: That makes me win like a douche, too.
-      extraData: ExtraData
-      inputSetIndex: 25
-      outputNodeIndex: 26
+      inputSetIndex: 22
+      outputNodeIndex: 23
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -901,10 +770,132 @@ MonoBehaviour:
     ID: 25
     rect:
       serializedVersion: 2
-      x: 2010
-      y: 3200
+      x: 3640
+      y: 1690
       width: 348
       height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: It will not fail me. The only time I lost was because of your stupid
+        mistake.
+      extraData: ExtraData
+      inputSetIndex: 23
+      outputNodeIndex: 24
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 48
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 26
+    rect:
+      serializedVersion: 2
+      x: 3630
+      y: 1870
+      width: 348
+      height: 154
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: "It\u2019s curious how you blame your loss on the disappearance of one
+        card."
+      extraData: ExtraData
+      inputSetIndex: 24
+      outputNodeIndex: 27
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 48
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: How can you be so sure it was a mistake?
+      extraData: ExtraData
+      inputSetIndex: 24
+      outputNodeIndex: 25
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 300
+        y: 112
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 27
+    rect:
+      serializedVersion: 2
+      x: 3630
+      y: 2070
+      width: 348
+      height: 188
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 2
+    s_comment:
+    - text: "\u2026"
+      extraData: ExtraData
+      inputSetIndex: 25
+      outputNodeIndex: 26
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: You assured me you did not cheat.
+      extraData: ExtraData
+      inputSetIndex: 25
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 28
+    rect:
+      serializedVersion: 2
+      x: 4070
+      y: 1990
+      width: 348
+      height: 153
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -913,7 +904,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Ha.
+    - text: "I did not lie. But\u2026"
       extraData: ExtraData
       inputSetIndex: 26
       outputNodeIndex: 27
@@ -928,11 +919,11 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 26
+    ID: 29
     rect:
       serializedVersion: 2
-      x: 2410
-      y: 3210
+      x: 4450
+      y: 1990
       width: 348
       height: 129
     pTag: 
@@ -943,7 +934,8 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Ah, you are making the same mistake again.
+    - text: "It gave me some food for thought. This gift you keep bragging about\u2026
+        You really do have it, don\u2019t you?"
       extraData: ExtraData
       inputSetIndex: 27
       outputNodeIndex: 28
@@ -954,137 +946,17 @@ MonoBehaviour:
         x: 301
         y: 63
         width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 27
-    rect:
-      serializedVersion: 2
-      x: 2830
-      y: 3150
-      width: 348
-      height: 139
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: 'Oh really. Have we played before? '
-      extraData: ExtraData
-      inputSetIndex: 28
-      outputNodeIndex: 29
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Must be nice, playing against an amnesiac.
-      extraData: ExtraData
-      inputSetIndex: 28
-      outputNodeIndex: 31
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 87
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 28
-    rect:
-      serializedVersion: 2
-      x: 2860
-      y: 3400
-      width: 348
-      height: 163
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 2
-    s_comment:
-    - text: I suppose there is no harm in telling you.
-      extraData: ExtraData
-      inputSetIndex: 29
-      outputNodeIndex: 30
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Yes, this isn't our first game together.
-      extraData: ExtraData
-      inputSetIndex: 29
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 29
-    rect:
-      serializedVersion: 2
-      x: 3330
-      y: 3300
-      width: 348
-      height: 173
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: I don't recall those games at all. That seems unfair.
-      extraData: ExtraData
-      inputSetIndex: 30
-      outputNodeIndex: 33
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 30
     rect:
       serializedVersion: 2
-      x: 3720
-      y: 3300
+      x: 4880
+      y: 2410
       width: 348
-      height: 139
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1093,10 +965,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: You are quite capable, for an amnesiac.
+    - text: I was always upfront about it. It is not my fault you never listened.
       extraData: ExtraData
-      inputSetIndex: 31
-      outputNodeIndex: 32
+      inputSetIndex: 28
+      outputNodeIndex: 29
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1111,100 +983,10 @@ MonoBehaviour:
     ID: 31
     rect:
       serializedVersion: 2
-      x: 3330
-      y: 3530
+      x: 4880
+      y: 2620
       width: 348
       height: 139
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Definitely does not feel like it.
-      extraData: ExtraData
-      inputSetIndex: 32
-      outputNodeIndex: 33
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 32
-    rect:
-      serializedVersion: 2
-      x: 3720
-      y: 3530
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Do you want to just let me have this win?
-      extraData: ExtraData
-      inputSetIndex: 33
-      outputNodeIndex: 34
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 33
-    rect:
-      serializedVersion: 2
-      x: 4220
-      y: 3530
-      width: 348
-      height: 139
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Why would I?
-      extraData: ExtraData
-      inputSetIndex: 34
-      outputNodeIndex: 35
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 34
-    rect:
-      serializedVersion: 2
-      x: 4220
-      y: 3690
-      width: 348
-      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1213,10 +995,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 2
     s_comment:
-    - text: Because my memories are gone and you feel sorry for me?
+    - text: You were upfront about it with the intention of hiding it. How noble.
       extraData: ExtraData
-      inputSetIndex: 35
-      outputNodeIndex: 36
+      inputSetIndex: 29
+      outputNodeIndex: 30
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1228,11 +1010,11 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Because my eyes are blue like the ocean and you are lost at sea?
+    - text: 'In my defense, it is quite difficult to believe such a gift exists. '
       extraData: ExtraData
-      inputSetIndex: 35
+      inputSetIndex: 29
       outputNodeIndex: -1
-      outActionIndex: 8
+      outActionIndex: 3
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -1243,11 +1025,11 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 35
+    ID: 32
     rect:
       serializedVersion: 2
-      x: 4220
-      y: 3840
+      x: 4880
+      y: 2800
       width: 348
       height: 173
     pTag: 
@@ -1258,11 +1040,42 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: I feel sorry for me having to deal with your antics.
+    - text: "A person sees what they want to see. I was honest. That\u2019s all that
+        matters."
       extraData: ExtraData
-      inputSetIndex: 36
-      outputNodeIndex: 38
+      inputSetIndex: 30
+      outputNodeIndex: 32
       outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 48
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 33
+    rect:
+      serializedVersion: 2
+      x: 5300
+      y: 2730
+      width: 348
+      height: 154
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "I don\u2019t blame you. Most people don\u2019t listen either."
+      extraData: ExtraData
+      inputSetIndex: 31
+      outputNodeIndex: -1
+      outActionIndex: 4
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -1273,11 +1086,11 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 36
+    ID: 34
     rect:
       serializedVersion: 2
-      x: 4630
-      y: 3760
+      x: 5530
+      y: 2920
       width: 348
       height: 139
     pTag: 
@@ -1288,10 +1101,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Your eyes are like the deepest pits of hell and I'm taking this win.
+    - text: "This gift is quite unfair, don\u2019t you think?"
       extraData: ExtraData
-      inputSetIndex: 37
-      outputNodeIndex: 38
+      inputSetIndex: 32
+      outputNodeIndex: 33
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1306,40 +1119,10 @@ MonoBehaviour:
     ID: 37
     rect:
       serializedVersion: 2
-      x: 4670
-      y: 4030
+      x: 6230
+      y: 2730
       width: 348
       height: 139
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Well, that was worth a try.
-      extraData: ExtraData
-      inputSetIndex: 38
-      outputNodeIndex: 39
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 38
-    rect:
-      serializedVersion: 2
-      x: 5080
-      y: 3960
-      width: 348
-      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1348,10 +1131,40 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: ...
+    - text: Good thing I took it upon myself to even out the playing field.
       extraData: ExtraData
-      inputSetIndex: 39
-      outputNodeIndex: 40
+      inputSetIndex: 33
+      outputNodeIndex: -1
+      outActionIndex: 5
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 38
+    rect:
+      serializedVersion: 2
+      x: 6230
+      y: 2890
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: What do you mean?
+      extraData: ExtraData
+      inputSetIndex: 34
+      outputNodeIndex: 35
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1366,8 +1179,8 @@ MonoBehaviour:
     ID: 39
     rect:
       serializedVersion: 2
-      x: 5080
-      y: 4110
+      x: 6250
+      y: 3310
       width: 348
       height: 129
     pTag: 
@@ -1378,7 +1191,159 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: ...
+    - text: I thought it would be fair if I removed a certain powerful card that
+        made it way easier for you to win with your luck.
+      extraData: ExtraData
+      inputSetIndex: 35
+      outputNodeIndex: -1
+      outActionIndex: 6
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 63
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 41
+    rect:
+      serializedVersion: 2
+      x: 6250
+      y: 3480
+      width: 348
+      height: 169
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: And you are only telling me that now?
+      extraData: ExtraData
+      inputSetIndex: 36
+      outputNodeIndex: 37
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 42
+    rect:
+      serializedVersion: 2
+      x: 6250
+      y: 3900
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Stop the game. I don't wish to continue.
+      extraData: ExtraData
+      inputSetIndex: 37
+      outputNodeIndex: 38
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 44
+    rect:
+      serializedVersion: 2
+      x: 6240
+      y: 4060
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: You know the rules, Daemon. Once we start the game, we have to finish
+        it.
+      extraData: ExtraData
+      inputSetIndex: 38
+      outputNodeIndex: 39
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 48
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 45
+    rect:
+      serializedVersion: 2
+      x: 6240
+      y: 4240
+      width: 348
+      height: 154
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: You...! Cheating bastard! This is not the game we agreed on!
+      extraData: ExtraData
+      inputSetIndex: 39
+      outputNodeIndex: 40
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 46
+    rect:
+      serializedVersion: 2
+      x: 6240
+      y: 4470
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: This is the one you get.
       extraData: ExtraData
       inputSetIndex: 40
       outputNodeIndex: 41
@@ -1393,56 +1358,26 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 40
-    rect:
-      serializedVersion: 2
-      x: 5080
-      y: 4260
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 2
-    s_comment:
-    - text: Would you look at that? Lady Luck is on my side today.
+    - text: Too bad you tried to trick me with your gift.
       extraData: ExtraData
-      inputSetIndex: 41
-      outputNodeIndex: 42
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Looks like I'm taking the first win.
-      extraData: ExtraData
-      inputSetIndex: 41
-      outputNodeIndex: 42
+      inputSetIndex: 40
+      outputNodeIndex: 41
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 300
-        y: 97
+        y: 87
         width: 30
-        height: 23
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 41
+    ID: 47
     rect:
       serializedVersion: 2
-      x: 5080
-      y: 4410
+      x: 6250
+      y: 4670
       width: 348
       height: 163
     pTag: 
@@ -1453,206 +1388,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: What? That's impossible.
+    - text: I can still win. Your trick is nothing but a minor hiccup in my plan.
       extraData: ExtraData
-      inputSetIndex: 42
-      outputNodeIndex: 43
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 42
-    rect:
-      serializedVersion: 2
-      x: 5520
-      y: 4420
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: Cards don't lie.
-      extraData: ExtraData
-      inputSetIndex: 43
-      outputNodeIndex: 44
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: So much for a little faith.
-      extraData: ExtraData
-      inputSetIndex: 43
-      outputNodeIndex: 44
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 87
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 43
-    rect:
-      serializedVersion: 2
-      x: 5520
-      y: 4580
-      width: 348
-      height: 153
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Were you cheating?
-      extraData: ExtraData
-      inputSetIndex: 44
-      outputNodeIndex: 45
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 44
-    rect:
-      serializedVersion: 2
-      x: 5940
-      y: 4590
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: It was an honest win. Don't be upset.
-      extraData: ExtraData
-      inputSetIndex: 45
-      outputNodeIndex: 46
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 45
-    rect:
-      serializedVersion: 2
-      x: 5940
-      y: 4730
-      width: 348
-      height: 139
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: I don't trust your kind. Where is the ace of spades? I haven't seen it
-        for an entire game.
-      extraData: ExtraData
-      inputSetIndex: 46
-      outputNodeIndex: 47
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 48
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 46
-    rect:
-      serializedVersion: 2
-      x: 5940
-      y: 4880
-      width: 348
-      height: 154
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Probably still in the deck.
-      extraData: ExtraData
-      inputSetIndex: 47
-      outputNodeIndex: 48
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 47
-    rect:
-      serializedVersion: 2
-      x: 5940
-      y: 5060
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Nonsense. Why didn't I get it in my hand?
-      extraData: ExtraData
-      inputSetIndex: 48
-      outputNodeIndex: 49
+      inputSetIndex: 41
+      outputNodeIndex: 42
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1667,8 +1406,8 @@ MonoBehaviour:
     ID: 48
     rect:
       serializedVersion: 2
-      x: 5940
-      y: 5210
+      x: 6240
+      y: 4910
       width: 348
       height: 139
     pTag: 
@@ -1679,10 +1418,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Because we didn't go through the whole deck? Just relax.
+    - text: "Oh? Are you saying you\u2019ve suddenly mastered cards?"
       extraData: ExtraData
-      inputSetIndex: 49
-      outputNodeIndex: 50
+      inputSetIndex: 42
+      outputNodeIndex: 43
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1697,8 +1436,8 @@ MonoBehaviour:
     ID: 49
     rect:
       serializedVersion: 2
-      x: 5940
-      y: 5370
+      x: 6230
+      y: 5110
       width: 348
       height: 139
     pTag: 
@@ -1707,58 +1446,12 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 1
-  - commentCount: 2
+  - commentCount: 1
     s_comment:
-    - text: Do not tell me what to do.
+    - text: "I\u2019ve played many games. I know what I\u2019m doing."
       extraData: ExtraData
-      inputSetIndex: 50
-      outputNodeIndex: 51
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Celebrate this win for as long as you can because you will be destroyed
-        next game.
-      extraData: ExtraData
-      inputSetIndex: 50
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 50
-    rect:
-      serializedVersion: 2
-      x: 5940
-      y: 5530
-      width: 348
-      height: 178
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: You are so dramatic. Do you perhaps own a theatre?
-      extraData: ExtraData
-      inputSetIndex: 51
-      outputNodeIndex: 52
+      inputSetIndex: 43
+      outputNodeIndex: 44
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1770,58 +1463,13 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Whatever helps you sleep at night.
-      extraData: ExtraData
-      inputSetIndex: 51
-      outputNodeIndex: 54
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 97
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 51
+    ID: 50
     rect:
       serializedVersion: 2
-      x: 5940
-      y: 5740
+      x: 6230
+      y: 5370
       width: 348
-      height: 163
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: Multiple. Why do you ask?
-      extraData: ExtraData
-      inputSetIndex: 52
-      outputNodeIndex: 53
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 52
-    rect:
-      serializedVersion: 2
-      x: 6330
-      y: 5660
-      width: 348
-      height: 129
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1830,10 +1478,71 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: ...No reason.
+    - text: "Someone who relied only on luck to guide him will not have much skill,
+        don\u2019t you think?"
       extraData: ExtraData
-      inputSetIndex: 53
-      outputNodeIndex: 54
+      inputSetIndex: 44
+      outputNodeIndex: 45
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 48
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 51
+    rect:
+      serializedVersion: 2
+      x: 6210
+      y: 5620
+      width: 348
+      height: 154
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "Shut up. Just\u2026 shut up. You are trying to throw me off."
+      extraData: ExtraData
+      inputSetIndex: 45
+      outputNodeIndex: 46
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 52
+    rect:
+      serializedVersion: 2
+      x: 6210
+      y: 5850
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: Well, is it working?
+      extraData: ExtraData
+      inputSetIndex: 46
+      outputNodeIndex: 47
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1845,13 +1554,28 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
+    - text: Just playing my part, darling.
+      extraData: ExtraData
+      inputSetIndex: 46
+      outputNodeIndex: 47
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 300
+        y: 87
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
     ID: 53
     rect:
       serializedVersion: 2
-      x: 6730
-      y: 5670
+      x: 6200
+      y: 6080
       width: 348
-      height: 129
+      height: 153
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1860,10 +1584,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Hmph. (Daemon exits)
+    - text: ...
       extraData: ExtraData
-      inputSetIndex: 54
-      outputNodeIndex: 55
+      inputSetIndex: 47
+      outputNodeIndex: 48
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1878,8 +1602,8 @@ MonoBehaviour:
     ID: 54
     rect:
       serializedVersion: 2
-      x: 7140
-      y: 5820
+      x: 6200
+      y: 6330
       width: 348
       height: 129
     pTag: 
@@ -1890,10 +1614,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Phew. That was intense. But this must be a good sign.
+    - text: Is this it? Not even going to talk to me?
       extraData: ExtraData
-      inputSetIndex: 55
-      outputNodeIndex: 56
+      inputSetIndex: 48
+      outputNodeIndex: 49
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1908,8 +1632,8 @@ MonoBehaviour:
     ID: 55
     rect:
       serializedVersion: 2
-      x: 7140
-      y: 5970
+      x: 6220
+      y: 6570
       width: 348
       height: 139
     pTag: 
@@ -1918,12 +1642,224 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 1
+  - commentCount: 2
+    s_comment:
+    - text: "You are gloating like you\u2019ve already won, yet we still have a whole
+        game ahead of us."
+      extraData: ExtraData
+      inputSetIndex: 49
+      outputNodeIndex: 50
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 48
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: You are making me sick.
+      extraData: ExtraData
+      inputSetIndex: 49
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 56
+    rect:
+      serializedVersion: 2
+      x: 6190
+      y: 6800
+      width: 348
+      height: 178
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: "You are so nervous, I can\u2019t help but play with you a little."
+      extraData: ExtraData
+      inputSetIndex: 50
+      outputNodeIndex: -1
+      outActionIndex: 7
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "It is only fair, don\u2019t you think? You\u2019ve kept me here for
+        so long. How long has it been exactly?\r"
+      extraData: ExtraData
+      inputSetIndex: 50
+      outputNodeIndex: 51
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 300
+        y: 97
+        width: 30
+        height: 48
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 57
+    rect:
+      serializedVersion: 2
+      x: 6200
+      y: 7050
+      width: 348
+      height: 188
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: I won the first game. One more win, and I'll be free.
+    - text: Not long enough.
       extraData: ExtraData
-      inputSetIndex: 56
+      inputSetIndex: 51
+      outputNodeIndex: 52
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 58
+    rect:
+      serializedVersion: 2
+      x: 6610
+      y: 7200
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Aw. I\u2019ll miss you too."
+      extraData: ExtraData
+      inputSetIndex: 52
+      outputNodeIndex: 53
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 59
+    rect:
+      serializedVersion: 2
+      x: 6980
+      y: 7210
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Go to hell.
+      extraData: ExtraData
+      inputSetIndex: 53
+      outputNodeIndex: 54
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 60
+    rect:
+      serializedVersion: 2
+      x: 7830
+      y: 7220
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "That\u2019s the plan."
+      extraData: ExtraData
+      inputSetIndex: 54
       outputNodeIndex: 57
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 61
+    rect:
+      serializedVersion: 2
+      x: 7830
+      y: 7380
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "It\u2019s always about you and your games."
+      extraData: ExtraData
+      inputSetIndex: 55
+      outputNodeIndex: 56
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -1935,11 +1871,41 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 56
+    ID: 62
     rect:
       serializedVersion: 2
-      x: 7140
-      y: 6120
+      x: 6890
+      y: 6990
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "I didn\u2019t start this game, Daemon. You did."
+      extraData: ExtraData
+      inputSetIndex: 56
+      outputNodeIndex: 53
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 63
+    rect:
+      serializedVersion: 2
+      x: 7330
+      y: 7000
       width: 348
       height: 139
     pTag: 
@@ -1965,146 +1931,11 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 57
+    ID: 65
     rect:
       serializedVersion: 2
-      x: 7140
-      y: 6270
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: How strange.
-      extraData: ExtraData
-      inputSetIndex: 58
-      outputNodeIndex: 59
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 58
-    rect:
-      serializedVersion: 2
-      x: 7140
-      y: 6420
-      width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: The ace of spades is indeed not in the deck. I should look for it.
-      extraData: ExtraData
-      inputSetIndex: 59
-      outputNodeIndex: -1
-      outActionIndex: 2
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 59
-    rect:
-      serializedVersion: 2
-      x: 7140
-      y: 6580
-      width: 348
-      height: 139
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 2
-    s_comment:
-    - text: I take it even more suspicious names were taken?
-      extraData: ExtraData
-      inputSetIndex: 60
-      outputNodeIndex: -1
-      outActionIndex: 0
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: 'Daemon? Sounds so douchey. I''m going to call you Douchemon. '
-      extraData: ExtraData
-      inputSetIndex: 60
-      outputNodeIndex: -1
-      outActionIndex: 4
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 97
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 63
-    rect:
-      serializedVersion: 2
-      x: 1580
-      y: 1790
-      width: 348
-      height: 173
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: How thoughtful of you.
-      extraData: ExtraData
-      inputSetIndex: 61
-      outputNodeIndex: 14
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 64
-    rect:
-      serializedVersion: 2
-      x: 2400
-      y: 2070
+      x: 7830
+      y: 7530
       width: 348
       height: 129
     pTag: 
@@ -2115,11 +1946,11 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: You see right through me.
+    - text: ...
       extraData: ExtraData
-      inputSetIndex: 62
-      outputNodeIndex: 14
-      outActionIndex: -1
+      inputSetIndex: 58
+      outputNodeIndex: -1
+      outActionIndex: 8
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -2133,8 +1964,8 @@ MonoBehaviour:
     ID: 66
     rect:
       serializedVersion: 2
-      x: 2350
-      y: 1700
+      x: 7820
+      y: 7710
       width: 348
       height: 129
     pTag: 
@@ -2142,104 +1973,13 @@ MonoBehaviour:
     sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 0
-  - commentCount: 5
-    s_comment:
-    - text: The amnesia must have really gotten to you.
-      extraData: ExtraData
-      inputSetIndex: 63
-      outputNodeIndex: 64
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: 'It''s a simple game, really. We start with five cards each. '
-      extraData: ExtraData
-      inputSetIndex: 63
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: The higher the value, the more powerful the card is, with the ace of
-        spades being the highest card.
-      extraData: ExtraData
-      inputSetIndex: 63
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: It is easier to explain when we start playing.
-      extraData: ExtraData
-      inputSetIndex: 63
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: You'll pick it up as we go.
-      extraData: ExtraData
-      inputSetIndex: 63
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 61
-    rect:
-      serializedVersion: 2
-      x: 490
-      y: 300
-      width: 348
-      height: 280
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
+    isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: So eager to start playing against someone who does not know the rules.
+    - text: "No\u2026 No, this can\u2019t be happening..."
       extraData: ExtraData
-      inputSetIndex: 64
-      outputNodeIndex: 65
+      inputSetIndex: 59
+      outputNodeIndex: 60
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -2247,45 +1987,15 @@ MonoBehaviour:
         x: 301
         y: 63
         width: 30
-        height: 48
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 67
     rect:
       serializedVersion: 2
-      x: 880
-      y: 300
-      width: 348
-      height: 154
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: That's what I do.
-      extraData: ExtraData
-      inputSetIndex: 65
-      outputNodeIndex: 66
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 68
-    rect:
-      serializedVersion: 2
-      x: 1300
-      y: 310
+      x: 7810
+      y: 8120
       width: 348
       height: 129
     pTag: 
@@ -2296,40 +2006,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Alright, we can figure it out as we go.
+    - text: What is it, darling?
       extraData: ExtraData
-      inputSetIndex: 66
-      outputNodeIndex: 3
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 69
-    rect:
-      serializedVersion: 2
-      x: 1690
-      y: 300
-      width: 348
-      height: 139
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 2
-    s_comment:
-    - text: 'Sounds good. '
-      extraData: ExtraData
-      inputSetIndex: 67
-      outputNodeIndex: 68
+      inputSetIndex: 60
+      outputNodeIndex: 61
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -2341,29 +2021,13 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: How exactly are we playing? I have the cards, and you are literally in
-        a portrait.
-      extraData: ExtraData
-      inputSetIndex: 67
-      outputNodeIndex: 68
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 87
-        width: 30
-        height: 48
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 70
+    ID: 69
     rect:
       serializedVersion: 2
-      x: 40
-      y: 970
+      x: 7810
+      y: 8300
       width: 348
-      height: 178
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2372,10 +2036,40 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Hah.
+    - text: Did I win?
       extraData: ExtraData
-      inputSetIndex: 68
-      outputNodeIndex: 69
+      inputSetIndex: 61
+      outputNodeIndex: 62
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 70
+    rect:
+      serializedVersion: 2
+      x: 7790
+      y: 8480
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "No, this can\u2019t be\u2026"
+      extraData: ExtraData
+      inputSetIndex: 62
+      outputNodeIndex: 63
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -2390,8 +2084,8 @@ MonoBehaviour:
     ID: 71
     rect:
       serializedVersion: 2
-      x: 410
-      y: 880
+      x: 7790
+      y: 8700
       width: 348
       height: 129
     pTag: 
@@ -2402,10 +2096,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: What?
+    - text: Your luck has left you after all.
       extraData: ExtraData
-      inputSetIndex: 69
-      outputNodeIndex: 70
+      inputSetIndex: 63
+      outputNodeIndex: 64
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -2420,8 +2114,8 @@ MonoBehaviour:
     ID: 72
     rect:
       serializedVersion: 2
-      x: 770
-      y: 890
+      x: 7790
+      y: 8900
       width: 348
       height: 129
     pTag: 
@@ -2430,12 +2124,12 @@ MonoBehaviour:
     vars: []
     varKeys: []
     isPlayer: 1
-  - commentCount: 2
+  - commentCount: 1
     s_comment:
-    - text: Nothing. It's just amusing that I have to explain this to you.
+    - text: No, I can still win..! Just give me one more chance!
       extraData: ExtraData
-      inputSetIndex: 70
-      outputNodeIndex: 71
+      inputSetIndex: 64
+      outputNodeIndex: 65
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -2444,65 +2138,35 @@ MonoBehaviour:
         y: 63
         width: 30
         height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: The cards are from a different dimension. They transcend time and space
-        because they have no real home.
-      extraData: ExtraData
-      inputSetIndex: 70
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 73
     rect:
       serializedVersion: 2
-      x: 1140
-      y: 860
+      x: 7790
+      y: 9120
       width: 348
-      height: 203
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 2
+  - commentCount: 1
     s_comment:
-    - text: No real home. That sounds almost sad.
+    - text: You had all the time in the world, Daemon, but nothing is eternal. It
+        was bound to run out.
       extraData: ExtraData
-      inputSetIndex: 71
-      outputNodeIndex: 73
+      inputSetIndex: 65
+      outputNodeIndex: 66
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 301
         y: 63
-        width: 30
-        height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: How did you come to be in posession of such an artifact again?
-      extraData: ExtraData
-      inputSetIndex: 71
-      outputNodeIndex: 72
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 97
         width: 30
         height: 48
       sprites: {fileID: 0}
@@ -2511,10 +2175,10 @@ MonoBehaviour:
     ID: 74
     rect:
       serializedVersion: 2
-      x: 1550
-      y: 870
+      x: 7800
+      y: 9320
       width: 348
-      height: 188
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2523,10 +2187,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: I have my ways.
+    - text: "You still need me to get out! If we can make one more deal..!\r"
       extraData: ExtraData
-      inputSetIndex: 72
-      outputNodeIndex: 76
+      inputSetIndex: 66
+      outputNodeIndex: 67
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -2534,17 +2198,17 @@ MonoBehaviour:
         x: 301
         y: 63
         width: 30
-        height: 23
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 75
     rect:
       serializedVersion: 2
-      x: 1930
-      y: 960
+      x: 7780
+      y: 9530
       width: 348
-      height: 129
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2553,58 +2217,29 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Perhaps to some.
+    - text: Oh, do not worry about me. Your little room of tricks is nothing for
+        me, now that my memories are rushing back.
       extraData: ExtraData
-      inputSetIndex: 73
-      outputNodeIndex: 74
-      outActionIndex: -1
+      inputSetIndex: 67
+      outputNodeIndex: -1
+      outActionIndex: 9
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 301
         y: 63
         width: 30
-        height: 23
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 76
     rect:
       serializedVersion: 2
-      x: 1930
-      y: 800
+      x: 7770
+      y: 9700
       width: 348
-      height: 129
-    pTag: 
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Not to you?
-      extraData: ExtraData
-      inputSetIndex: 74
-      outputNodeIndex: 75
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 77
-    rect:
-      serializedVersion: 2
-      x: 2310
-      y: 810
-      width: 348
-      height: 129
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2613,10 +2248,10 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: I have to know what home feels like to miss it.
+    - text: "But you\u2026 You put up quite a fight. It\u2019s admirable, really."
       extraData: ExtraData
-      inputSetIndex: 75
-      outputNodeIndex: 76
+      inputSetIndex: 68
+      outputNodeIndex: 69
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -2631,8 +2266,8 @@ MonoBehaviour:
     ID: 78
     rect:
       serializedVersion: 2
-      x: 2690
-      y: 810
+      x: 7770
+      y: 10140
       width: 348
       height: 139
     pTag: 
@@ -2640,13 +2275,13 @@ MonoBehaviour:
     sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 0
+    isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: ...
+    - text: I never would have thought I could lose my eternal knowledge to a mortal.
       extraData: ExtraData
-      inputSetIndex: 76
-      outputNodeIndex: 4
+      inputSetIndex: 69
+      outputNodeIndex: 70
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -2654,15 +2289,76 @@ MonoBehaviour:
         x: 301
         y: 63
         width: 30
-        height: 23
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 79
     rect:
       serializedVersion: 2
-      x: 10
-      y: 1220
+      x: 7770
+      y: 10350
+      width: 348
+      height: 154
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "This whole experience has been quite humbling. I should probably thank
+        you. You\u2019ve opened up my eyes to things I never thought could happen.\r"
+      extraData: ExtraData
+      inputSetIndex: 70
+      outputNodeIndex: -1
+      outActionIndex: 10
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 78
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 80
+    rect:
+      serializedVersion: 2
+      x: 7760
+      y: 10600
+      width: 348
+      height: 184
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: '*sob*'
+      extraData: ExtraData
+      inputSetIndex: 71
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 82
+    rect:
+      serializedVersion: 2
+      x: 7750
+      y: 11070
       width: 348
       height: 129
     pTag: 
@@ -2670,119 +2366,13 @@ MonoBehaviour:
     sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 1
+    isPlayer: 0
   S_actionNodes:
   - pauseHere: 0
-    gameObjectName: UIManager
-    methodName: SetNPCLabel
-    nameIndex: 6
-    methodIndex: 9
-    paramIndex: 2
-    opts:
-    - '[No method]'
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - CallNextNode
-    - SetPlayerChoice
-    - SetNPCLabel
-    nameOpts:
-    - '[No object]'
-    - Cube
-    - Quill (1)
-    - Quill
-    - teapot
-    - Book_Brown (19)
-    - UIManager
-    - Book_Brown (15)
-    - sofa
-    - GameMode
-    - Book_Brown (17)
-    - candle (5)
-    - daemon
-    - Book_Brown (18)
-    - candle
-    - Book_Brown (16)
-    - Book_Open
-    - Inkwell (1)
-    - Chandelier_Ceiling
-    param_bool: 0
-    param_string: Daemon
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 1980
-      y: 1720
-      width: 200
-      height: 190
-    ID: 62
-    outPlayerIndex: 62
-    outActionIndex: -1
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: UIManager
-    methodName: SetNPCLabel
-    nameIndex: 6
-    methodIndex: 9
-    paramIndex: 2
-    opts:
-    - '[No method]'
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - CallNextNode
-    - SetPlayerChoice
-    - SetNPCLabel
-    nameOpts:
-    - '[No object]'
-    - Cube
-    - Quill (1)
-    - Quill
-    - teapot
-    - Book_Brown (19)
-    - UIManager
-    - Book_Brown (15)
-    - sofa
-    - GameMode
-    - Book_Brown (17)
-    - candle (5)
-    - daemon
-    - Book_Brown (18)
-    - candle
-    - Book_Brown (16)
-    - Book_Open
-    - Inkwell (1)
-    - Chandelier_Ceiling
-    param_bool: 0
-    param_string: Douchemon
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 2060
-      y: 2340
-      width: 200
-      height: 190
-    ID: 65
-    outPlayerIndex: 61
-    outActionIndex: -1
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
     gameObjectName: GameMode
-    methodName: showAceOfSpades
-    nameIndex: 9
-    methodIndex: 10
+    methodName: lostTheGame
+    nameIndex: 10
+    methodIndex: 13
     paramIndex: 0
     opts:
     - '[No method]'
@@ -2796,14 +2386,24 @@ MonoBehaviour:
     - set_isCardGameInProgress
     - changeKeyAnimation
     - showAceOfSpades
-    - LoadNextSceneInQueue
-    - QuitGame
+    - beforeTheGame
+    - startTheGame
+    - lostTheGame
+    - getsAngry
+    - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
     nameOpts:
     - '[No object]'
     - Cube
     - Quill (1)
     - Quill
     - teapot
+    - ace_of_spades
     - Book_Brown (19)
     - UIManager
     - Book_Brown (15)
@@ -2811,13 +2411,13 @@ MonoBehaviour:
     - GameMode
     - Book_Brown (17)
     - candle (5)
-    - daemon
     - Book_Brown (18)
     - candle
     - Book_Brown (16)
     - Book_Open
     - Inkwell (1)
-    - ace_of_spades
+    - portraitanimated
+    - Player
     - Chandelier_Ceiling
     param_bool: 0
     param_string: 
@@ -2825,12 +2425,12 @@ MonoBehaviour:
     param_float: 0
     rect:
       serializedVersion: 2
-      x: 7230
-      y: 6740
+      x: 1100
+      y: 510
       width: 200
       height: 170
-    ID: 60
-    outPlayerIndex: -1
+    ID: 9
+    outPlayerIndex: 8
     outActionIndex: -1
     more: 0
     ovrStartNode: -1
@@ -2838,8 +2438,8 @@ MonoBehaviour:
   - pauseHere: 0
     gameObjectName: GameMode
     methodName: startTheGame
-    nameIndex: 9
-    methodIndex: 14
+    nameIndex: 10
+    methodIndex: 12
     paramIndex: 0
     opts:
     - '[No method]'
@@ -2853,19 +2453,24 @@ MonoBehaviour:
     - set_isCardGameInProgress
     - changeKeyAnimation
     - showAceOfSpades
-    - LoadNextSceneInQueue
-    - QuitGame
     - beforeTheGame
     - startTheGame
     - lostTheGame
     - getsAngry
     - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
     nameOpts:
     - '[No object]'
     - Cube
     - Quill (1)
     - Quill
     - teapot
+    - ace_of_spades
     - Book_Brown (19)
     - UIManager
     - Book_Brown (15)
@@ -2873,13 +2478,13 @@ MonoBehaviour:
     - GameMode
     - Book_Brown (17)
     - candle (5)
-    - daemon
     - Book_Brown (18)
     - candle
     - Book_Brown (16)
     - Book_Open
     - Inkwell (1)
-    - ace_of_spades
+    - portraitanimated
+    - Player
     - Chandelier_Ceiling
     param_bool: 0
     param_string: 
@@ -2887,12 +2492,79 @@ MonoBehaviour:
     param_float: 0
     rect:
       serializedVersion: 2
-      x: 20
-      y: 740
+      x: 1430
+      y: 900
       width: 200
       height: 170
-    ID: 80
-    outPlayerIndex: 67
+    ID: 12
+    outPlayerIndex: 10
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: startTheGame
+    nameIndex: 10
+    methodIndex: 12
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - get_isCardGameInProgress
+    - set_isCardGameInProgress
+    - changeKeyAnimation
+    - showAceOfSpades
+    - beforeTheGame
+    - startTheGame
+    - lostTheGame
+    - getsAngry
+    - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
+    nameOpts:
+    - '[No object]'
+    - Cube
+    - Quill (1)
+    - Quill
+    - teapot
+    - ace_of_spades
+    - Book_Brown (19)
+    - UIManager
+    - Book_Brown (15)
+    - sofa
+    - GameMode
+    - Book_Brown (17)
+    - candle (5)
+    - Book_Brown (18)
+    - candle
+    - Book_Brown (16)
+    - Book_Open
+    - Inkwell (1)
+    - portraitanimated
+    - Player
+    - Chandelier_Ceiling
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 1440
+      y: 1150
+      width: 200
+      height: 170
+    ID: 13
+    outPlayerIndex: 15
     outActionIndex: -1
     more: 0
     ovrStartNode: -1
@@ -2900,8 +2572,8 @@ MonoBehaviour:
   - pauseHere: 0
     gameObjectName: GameMode
     methodName: lostTheGame
-    nameIndex: 9
-    methodIndex: 15
+    nameIndex: 10
+    methodIndex: 13
     paramIndex: 0
     opts:
     - '[No method]'
@@ -2915,19 +2587,24 @@ MonoBehaviour:
     - set_isCardGameInProgress
     - changeKeyAnimation
     - showAceOfSpades
-    - LoadNextSceneInQueue
-    - QuitGame
     - beforeTheGame
     - startTheGame
     - lostTheGame
     - getsAngry
     - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
     nameOpts:
     - '[No object]'
     - Cube
     - Quill (1)
     - Quill
     - teapot
+    - ace_of_spades
     - Book_Brown (19)
     - UIManager
     - Book_Brown (15)
@@ -2935,13 +2612,13 @@ MonoBehaviour:
     - GameMode
     - Book_Brown (17)
     - candle (5)
-    - daemon
     - Book_Brown (18)
     - candle
     - Book_Brown (16)
     - Book_Open
     - Inkwell (1)
-    - ace_of_spades
+    - portraitanimated
+    - Player
     - Chandelier_Ceiling
     param_bool: 0
     param_string: 
@@ -2949,322 +2626,481 @@ MonoBehaviour:
     param_float: 0
     rect:
       serializedVersion: 2
-      x: 1990
-      y: 1950
+      x: 5300
+      y: 2940
+      width: 200
+      height: 170
+    ID: 35
+    outPlayerIndex: 31
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: startTheGame
+    nameIndex: 10
+    methodIndex: 12
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - get_isCardGameInProgress
+    - set_isCardGameInProgress
+    - changeKeyAnimation
+    - showAceOfSpades
+    - beforeTheGame
+    - startTheGame
+    - lostTheGame
+    - getsAngry
+    - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
+    nameOpts:
+    - '[No object]'
+    - Cube
+    - Quill (1)
+    - Quill
+    - teapot
+    - ace_of_spades
+    - Book_Brown (19)
+    - UIManager
+    - Book_Brown (15)
+    - sofa
+    - GameMode
+    - Book_Brown (17)
+    - candle (5)
+    - Book_Brown (18)
+    - candle
+    - Book_Brown (16)
+    - Book_Open
+    - Inkwell (1)
+    - portraitanimated
+    - Player
+    - Chandelier_Ceiling
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 5910
+      y: 2930
+      width: 200
+      height: 170
+    ID: 36
+    outPlayerIndex: 32
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: lostTheGame
+    nameIndex: 10
+    methodIndex: 13
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - get_isCardGameInProgress
+    - set_isCardGameInProgress
+    - changeKeyAnimation
+    - showAceOfSpades
+    - beforeTheGame
+    - startTheGame
+    - lostTheGame
+    - getsAngry
+    - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
+    nameOpts:
+    - '[No object]'
+    - Cube
+    - Quill (1)
+    - Quill
+    - teapot
+    - ace_of_spades
+    - Book_Brown (19)
+    - UIManager
+    - Book_Brown (15)
+    - sofa
+    - GameMode
+    - Book_Brown (17)
+    - candle (5)
+    - Book_Brown (18)
+    - candle
+    - Book_Brown (16)
+    - Book_Open
+    - Inkwell (1)
+    - portraitanimated
+    - Player
+    - Chandelier_Ceiling
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 6320
+      y: 3090
+      width: 200
+      height: 170
+    ID: 40
+    outPlayerIndex: 34
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: startTheGame
+    nameIndex: 10
+    methodIndex: 12
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - get_isCardGameInProgress
+    - set_isCardGameInProgress
+    - changeKeyAnimation
+    - showAceOfSpades
+    - beforeTheGame
+    - startTheGame
+    - lostTheGame
+    - getsAngry
+    - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
+    nameOpts:
+    - '[No object]'
+    - Cube
+    - Quill (1)
+    - Quill
+    - teapot
+    - ace_of_spades
+    - Book_Brown (19)
+    - UIManager
+    - Book_Brown (15)
+    - sofa
+    - GameMode
+    - Book_Brown (17)
+    - candle (5)
+    - Book_Brown (18)
+    - candle
+    - Book_Brown (16)
+    - Book_Open
+    - Inkwell (1)
+    - portraitanimated
+    - Player
+    - Chandelier_Ceiling
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 6310
+      y: 3680
+      width: 200
+      height: 170
+    ID: 43
+    outPlayerIndex: 36
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: cryStage2
+    nameIndex: 10
+    methodIndex: 20
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - get_isCardGameInProgress
+    - set_isCardGameInProgress
+    - changeKeyAnimation
+    - showAceOfSpades
+    - beforeTheGame
+    - startTheGame
+    - lostTheGame
+    - getsAngry
+    - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
+    nameOpts:
+    - '[No object]'
+    - Cube
+    - Quill (1)
+    - Quill
+    - teapot
+    - ace_of_spades
+    - Book_Brown (19)
+    - UIManager
+    - Book_Brown (15)
+    - sofa
+    - GameMode
+    - Book_Brown (17)
+    - candle (5)
+    - Book_Brown (18)
+    - candle
+    - Book_Brown (16)
+    - Book_Open
+    - Inkwell (1)
+    - portraitanimated
+    - Player
+    - Chandelier_Ceiling
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 6600
+      y: 6960
+      width: 200
+      height: 170
+    ID: 64
+    outPlayerIndex: 55
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: cryStage1
+    nameIndex: 10
+    methodIndex: 19
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - get_isCardGameInProgress
+    - set_isCardGameInProgress
+    - changeKeyAnimation
+    - showAceOfSpades
+    - beforeTheGame
+    - startTheGame
+    - lostTheGame
+    - getsAngry
+    - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
+    nameOpts:
+    - '[No object]'
+    - Cube
+    - Quill (1)
+    - Quill
+    - teapot
+    - ace_of_spades
+    - Book_Brown (19)
+    - UIManager
+    - Book_Brown (15)
+    - sofa
+    - GameMode
+    - Book_Brown (17)
+    - candle (5)
+    - Book_Brown (18)
+    - candle
+    - Book_Brown (16)
+    - Book_Open
+    - Inkwell (1)
+    - portraitanimated
+    - Player
+    - Chandelier_Ceiling
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 7900
+      y: 7870
+      width: 200
+      height: 170
+    ID: 68
+    outPlayerIndex: 59
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: cryStage2
+    nameIndex: 10
+    methodIndex: 20
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - get_isCardGameInProgress
+    - set_isCardGameInProgress
+    - changeKeyAnimation
+    - showAceOfSpades
+    - beforeTheGame
+    - startTheGame
+    - lostTheGame
+    - getsAngry
+    - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
+    nameOpts:
+    - '[No object]'
+    - Cube
+    - Quill (1)
+    - Quill
+    - teapot
+    - ace_of_spades
+    - Book_Brown (19)
+    - UIManager
+    - Book_Brown (15)
+    - sofa
+    - GameMode
+    - Book_Brown (17)
+    - candle (5)
+    - Book_Brown (18)
+    - candle
+    - Book_Brown (16)
+    - Book_Open
+    - Inkwell (1)
+    - portraitanimated
+    - Player
+    - Chandelier_Ceiling
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 7840
+      y: 9920
+      width: 200
+      height: 170
+    ID: 77
+    outPlayerIndex: 68
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: GameMode
+    methodName: cryStage3
+    nameIndex: 10
+    methodIndex: 21
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetAssigned
+    - AssignNew
+    - SaveState
+    - LoadState
+    - OnBeforeSerialize
+    - OnAfterDeserialize
+    - get_isCardGameInProgress
+    - set_isCardGameInProgress
+    - changeKeyAnimation
+    - showAceOfSpades
+    - beforeTheGame
+    - startTheGame
+    - lostTheGame
+    - getsAngry
+    - emptyRoom
+    - annoyed
+    - softSmile
+    - softestSmile
+    - cryStage1
+    - cryStage2
+    - cryStage3
+    nameOpts:
+    - '[No object]'
+    - Cube
+    - Quill (1)
+    - Quill
+    - teapot
+    - ace_of_spades
+    - Book_Brown (19)
+    - UIManager
+    - Book_Brown (15)
+    - sofa
+    - GameMode
+    - Book_Brown (17)
+    - candle (5)
+    - Book_Brown (18)
+    - candle
+    - Book_Brown (16)
+    - Book_Open
+    - Inkwell (1)
+    - portraitanimated
+    - Player
+    - Chandelier_Ceiling
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 7850
+      y: 10860
       width: 200
       height: 170
     ID: 81
     outPlayerIndex: -1
-    outActionIndex: 5
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: GameMode
-    methodName: startTheGame
-    nameIndex: 9
-    methodIndex: 14
-    paramIndex: 0
-    opts:
-    - '[No method]'
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - get_isCardGameInProgress
-    - set_isCardGameInProgress
-    - changeKeyAnimation
-    - showAceOfSpades
-    - LoadNextSceneInQueue
-    - QuitGame
-    - beforeTheGame
-    - startTheGame
-    - lostTheGame
-    - getsAngry
-    - emptyRoom
-    nameOpts:
-    - '[No object]'
-    - Cube
-    - Quill (1)
-    - Quill
-    - teapot
-    - Book_Brown (19)
-    - UIManager
-    - Book_Brown (15)
-    - sofa
-    - GameMode
-    - Book_Brown (17)
-    - candle (5)
-    - daemon
-    - Book_Brown (18)
-    - candle
-    - Book_Brown (16)
-    - Book_Open
-    - Inkwell (1)
-    - ace_of_spades
-    - Chandelier_Ceiling
-    param_bool: 0
-    param_string: 
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 1810
-      y: 2190
-      width: 200
-      height: 170
-    ID: 82
-    outPlayerIndex: -1
-    outActionIndex: 1
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: GameMode
-    methodName: lostTheGame
-    nameIndex: 9
-    methodIndex: 15
-    paramIndex: 0
-    opts:
-    - '[No method]'
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - get_isCardGameInProgress
-    - set_isCardGameInProgress
-    - changeKeyAnimation
-    - showAceOfSpades
-    - LoadNextSceneInQueue
-    - QuitGame
-    - beforeTheGame
-    - startTheGame
-    - lostTheGame
-    - getsAngry
-    - emptyRoom
-    nameOpts:
-    - '[No object]'
-    - Cube
-    - Quill (1)
-    - Quill
-    - teapot
-    - Book_Brown (19)
-    - UIManager
-    - Book_Brown (15)
-    - sofa
-    - GameMode
-    - Book_Brown (17)
-    - candle (5)
-    - daemon
-    - Book_Brown (18)
-    - candle
-    - Book_Brown (16)
-    - Book_Open
-    - Inkwell (1)
-    - ace_of_spades
-    - Chandelier_Ceiling
-    param_bool: 0
-    param_string: 
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 410
-      y: 1370
-      width: 200
-      height: 170
-    ID: 83
-    outPlayerIndex: -1
-    outActionIndex: 7
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: GameMode
-    methodName: startTheGame
-    nameIndex: 9
-    methodIndex: 14
-    paramIndex: 0
-    opts:
-    - '[No method]'
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - get_isCardGameInProgress
-    - set_isCardGameInProgress
-    - changeKeyAnimation
-    - showAceOfSpades
-    - LoadNextSceneInQueue
-    - QuitGame
-    - beforeTheGame
-    - startTheGame
-    - lostTheGame
-    - getsAngry
-    - emptyRoom
-    nameOpts:
-    - '[No object]'
-    - Cube
-    - Quill (1)
-    - Quill
-    - teapot
-    - Book_Brown (19)
-    - UIManager
-    - Book_Brown (15)
-    - sofa
-    - GameMode
-    - Book_Brown (17)
-    - candle (5)
-    - daemon
-    - Book_Brown (18)
-    - candle
-    - Book_Brown (16)
-    - Book_Open
-    - Inkwell (1)
-    - ace_of_spades
-    - Chandelier_Ceiling
-    param_bool: 0
-    param_string: 
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 620
-      y: 1370
-      width: 200
-      height: 170
-    ID: 84
-    outPlayerIndex: 7
-    outActionIndex: -1
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: GameMode
-    methodName: lostTheGame
-    nameIndex: 9
-    methodIndex: 15
-    paramIndex: 0
-    opts:
-    - '[No method]'
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - get_isCardGameInProgress
-    - set_isCardGameInProgress
-    - changeKeyAnimation
-    - showAceOfSpades
-    - LoadNextSceneInQueue
-    - QuitGame
-    - beforeTheGame
-    - startTheGame
-    - lostTheGame
-    - getsAngry
-    - emptyRoom
-    nameOpts:
-    - '[No object]'
-    - Cube
-    - Quill (1)
-    - Quill
-    - teapot
-    - Book_Brown (19)
-    - UIManager
-    - Book_Brown (15)
-    - sofa
-    - GameMode
-    - Book_Brown (17)
-    - candle (5)
-    - daemon
-    - Book_Brown (18)
-    - candle
-    - Book_Brown (16)
-    - Book_Open
-    - Inkwell (1)
-    - ace_of_spades
-    - Chandelier_Ceiling
-    param_bool: 0
-    param_string: 
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 4350
-      y: 4070
-      width: 200
-      height: 170
-    ID: 85
-    outPlayerIndex: -1
-    outActionIndex: 9
-    more: 0
-    ovrStartNode: -1
-    renameDialogue: 
-  - pauseHere: 0
-    gameObjectName: GameMode
-    methodName: startTheGame
-    nameIndex: 9
-    methodIndex: 14
-    paramIndex: 0
-    opts:
-    - '[No method]'
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    - OnBeforeSerialize
-    - OnAfterDeserialize
-    - get_isCardGameInProgress
-    - set_isCardGameInProgress
-    - changeKeyAnimation
-    - showAceOfSpades
-    - LoadNextSceneInQueue
-    - QuitGame
-    - beforeTheGame
-    - startTheGame
-    - lostTheGame
-    - getsAngry
-    - emptyRoom
-    nameOpts:
-    - '[No object]'
-    - Cube
-    - Quill (1)
-    - Quill
-    - teapot
-    - Book_Brown (19)
-    - UIManager
-    - Book_Brown (15)
-    - sofa
-    - GameMode
-    - Book_Brown (17)
-    - candle (5)
-    - daemon
-    - Book_Brown (18)
-    - candle
-    - Book_Brown (16)
-    - Book_Open
-    - Inkwell (1)
-    - ace_of_spades
-    - Chandelier_Ceiling
-    param_bool: 0
-    param_string: 
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 4560
-      y: 4280
-      width: 200
-      height: 170
-    ID: 86
-    outPlayerIndex: 37
     outActionIndex: -1
     more: 0
     ovrStartNode: -1

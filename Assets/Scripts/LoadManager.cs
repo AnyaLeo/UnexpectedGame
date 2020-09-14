@@ -26,4 +26,9 @@ public class LoadManager : MonoBehaviour
         Debug.Log("Quitting the game.");
         Application.Quit();
     }
+
+    public void LoadMainMenu()
+    {
+        StartCoroutine(LoadScene(0));
+    }
 }
