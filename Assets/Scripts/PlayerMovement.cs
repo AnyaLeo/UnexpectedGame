@@ -188,6 +188,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     readable = null;
                     gameMode.changeKeyAnimation();
+                    dialogueManager.SetPagesFoundUI(false);
                 }
             }
         }
