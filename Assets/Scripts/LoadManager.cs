@@ -12,6 +12,12 @@ public class LoadManager : MonoBehaviour
     public void LoadNextSceneInQueue()
     {
         int nextScene = SceneManager.GetActiveScene().buildIndex + 1;
+        // MAGIC NUMBER
+        if (nextScene == 4)
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
         StartCoroutine(LoadScene(nextScene));
     }
 
