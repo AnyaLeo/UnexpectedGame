@@ -45,4 +45,19 @@ public class AnimationController : MonoBehaviour
     {
         portraitAnim.SetTrigger("softest smile");
     }
+
+    public void cryStage1()
+    {
+        portraitAnim.SetTrigger("cry1");
+    }
+
+    public void cryStage2()
+    {
+        portraitAnim.SetTrigger("cry2");
+    }
+
+    public void cryStage3()
+    {
+        portraitAnim.SetTrigger("cry3");
+    }
 }
