@@ -7535,6 +7535,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 471270565}
   transitionTime: 1
+  transitioning: 0
 --- !u!114 &1361777729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12488,6 +12489,11 @@ PrefabInstance:
       propertyPath: crouchCharacterHeight
       value: 0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 405260871857628457, guid: d1db7d7aa34144949af610093b47a139,
+        type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1361777728}
     - target: {fileID: 405260871857628458, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_Height

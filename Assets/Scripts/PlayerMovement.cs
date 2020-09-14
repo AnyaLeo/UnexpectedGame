@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     public float movementSpeed = 12f;
     public float radiusToInteract = 4f;
 
+    public LoadManager sceneManager;
+
     public Image crosshair;
 
     public string prompt;
@@ -73,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
         // The current interactable will be stored in a variable "focus"
 
         findInteractable();
-        if (Input.GetKeyDown(KeyCode.E))
+        if (!sceneManager.transitioning && Input.GetKeyDown(KeyCode.E))
         {
             interactWithFocus();
         }

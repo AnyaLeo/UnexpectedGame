@@ -7107,6 +7107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 454434831}
   transitionTime: 1
+  transitioning: 0
 --- !u!114 &1361777729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10196,7 +10197,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: cb27e5e298e462446b4d1b6edce81205, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.45
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -11897,6 +11898,11 @@ PrefabInstance:
       propertyPath: crosshair
       value: 
       objectReference: {fileID: 1769466524}
+    - target: {fileID: 405260871857628457, guid: d1db7d7aa34144949af610093b47a139,
+        type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1361777728}
     - target: {fileID: 405260871857628458, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_Height

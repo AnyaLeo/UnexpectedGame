@@ -7,6 +7,7 @@ public class LoadManager : MonoBehaviour
 {
     public Animator transitionAnim;
     public float transitionTime = 1;
+    public bool transitioning = false;
 
     public void LoadNextSceneInQueue()
     {
@@ -16,6 +17,7 @@ public class LoadManager : MonoBehaviour
 
     IEnumerator LoadScene(int nextScene)
     {
+        transitioning = true;
         transitionAnim.SetTrigger("end");
         yield return new WaitForSeconds(transitionTime+0.5f);
         SceneManager.LoadScene(nextScene);

@@ -7799,6 +7799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transitionAnim: {fileID: 1401272969}
   transitionTime: 1
+  transitioning: 0
 --- !u!1001 &1371882195
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12478,6 +12479,11 @@ PrefabInstance:
       propertyPath: crosshair
       value: 
       objectReference: {fileID: 1769466524}
+    - target: {fileID: 405260871857628457, guid: d1db7d7aa34144949af610093b47a139,
+        type: 3}
+      propertyPath: sceneManager
+      value: 
+      objectReference: {fileID: 1361777729}
     - target: {fileID: 405260871857628458, guid: d1db7d7aa34144949af610093b47a139,
         type: 3}
       propertyPath: m_Height
