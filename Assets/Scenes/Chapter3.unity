@@ -3097,7 +3097,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8c31138eb2b7c6643b2953dfa68e64a7,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c31138eb2b7c6643b2953dfa68e64a7, type: 3}
@@ -4652,7 +4652,7 @@ PrefabInstance:
     - target: {fileID: 465817817081891374, guid: 06fdc55179d446e478cdbfa3f82c5025,
         type: 3}
       propertyPath: m_Text
-      value: ????
+      value: Daemon
       objectReference: {fileID: 0}
     - target: {fileID: 465817817081891374, guid: 06fdc55179d446e478cdbfa3f82c5025,
         type: 3}
@@ -7685,6 +7685,9 @@ MonoBehaviour:
   - {fileID: 1527852449}
   - {fileID: 1904074730}
   aceOfSpades: {fileID: 0}
+  ch1_music: {fileID: 0}
+  ch2_music: {fileID: 0}
+  ch3_music: {fileID: 1904074737}
 --- !u!114 &1361777726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7739,9 +7742,9 @@ MonoBehaviour:
   - UG_Ch3_StartGame
   - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 29
-  assignedID: 52600
-  assignedDialogue: UG_Ch1_StartGame
+  assignedIndex: 38
+  assignedID: 70237
+  assignedDialogue: UG_Ch3_StartGame
   interactionCount: 0
   alias: 
   overrideStartNode: -1
@@ -10007,7 +10010,7 @@ MonoBehaviour:
 
     TODO: change the prefab
     so they writing is not fancy cuz textbooks amiright'
-  letterPrefab: {fileID: 1015245224261210375, guid: cb4a70aa4b73800488add39fb1f4e498,
+  letterPrefab: {fileID: 1015245224261210375, guid: a18e10b9b004e9a41b820c5b4bdee154,
     type: 3}
   canvas: {fileID: 1141108723}
   Ch3_stoppedInteracting: 0
@@ -10744,13 +10747,14 @@ GameObject:
   - component: {fileID: 1904074736}
   - component: {fileID: 1904074735}
   - component: {fileID: 1904074734}
+  - component: {fileID: 1904074737}
   m_Layer: 0
   m_Name: portraitanimated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1904074731
 Animator:
   serializedVersion: 3
@@ -10931,6 +10935,102 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 30.359993, y: 42.99022, z: 0.20000525}
   m_Center: {x: -0.0000038146973, y: 0.0000076293945, z: 0}
+--- !u!82 &1904074737
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904074730}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 1720e465d59ac0548978e8c323d2d8ce, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.3
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1936763482 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 405260871857628460, guid: d1db7d7aa34144949af610093b47a139,
@@ -10981,12 +11081,17 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch1_TEST_DaemonAnim
+  - UG_Ch2_DaemonPlaying
   - UG_Ch2_PortraitMissing
   - UG_Ch2_StartGame
+  - UG_Ch3_AceOfSpades
+  - UG_Ch3_DaemonBeforePlaying
+  - UG_Ch3_DaemonPlaying
   - UG_Ch3_StartGame
   - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 34
+  assignedIndex: 39
   assignedID: 18510
   assignedDialogue: UG_Ch3_Textbook
   interactionCount: 0

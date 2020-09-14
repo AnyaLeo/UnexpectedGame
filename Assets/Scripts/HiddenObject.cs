@@ -14,4 +14,9 @@ public class HiddenObject : MonoBehaviour
     {
         gameObject.SetActive(true);
     }
+
+    public void disableObject()
+    {
+        gameObject.SetActive(false);
+    }
 }

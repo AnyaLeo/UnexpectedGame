@@ -60,4 +60,9 @@ public class AnimationController : MonoBehaviour
     {
         portraitAnim.SetTrigger("cry3");
     }
+
+    public void focused()
+    {
+        portraitAnim.SetTrigger("focused");
+    }
 }
