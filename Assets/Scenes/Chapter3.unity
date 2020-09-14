@@ -3954,10 +3954,12 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_AceOfSpades
   - UG_Ch1_BigLamp
   - UG_Ch1_Candles
   - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
   - UG_Ch1_DaemonPlaying
   - UG_Ch1_DemonLermontov
   - UG_Ch1_DorianGrayWilde
@@ -3969,8 +3971,17 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch1_TEST_DaemonAnim
+  - UG_Ch2_DaemonPlaying
+  - UG_Ch2_PortraitMissing
+  - UG_Ch2_StartGame
+  - UG_Ch3_AceOfSpades
+  - UG_Ch3_DaemonBeforePlaying
+  - UG_Ch3_DaemonPlaying
+  - UG_Ch3_StartGame
+  - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 23
+  assignedIndex: 25
   assignedID: 29969
   assignedDialogue: UG_Ch1_MacbethShakespeare
   interactionCount: 0
@@ -4531,6 +4542,108 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7a7a8492b5362f429051f051378a457, type: 3}
+--- !u!1 &828075803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5c0e5d1685af33842aa124fa8b2a73da,
+    type: 3}
+  m_PrefabInstance: {fileID: 1633753023}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &828075804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828075803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8b99d8a12e39e4b94d2d7162c7c978, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  diags:
+  - Charlie
+  - CommentModifier
+  - CrazyCap
+  - DEMO_Condition
+  - demo_Narration
+  - Example3Dialogue
+  - Example4_dialogue
+  - Item_LookUp
+  - Laura
+  - MrCube
+  - NPCOnly
+  - QuestChartDemo
+  - TableDialogue
+  - TriggeredDude
+  - UG_Ch1_AceOfSpades
+  - UG_Ch1_BigLamp
+  - UG_Ch1_Candles
+  - UG_Ch1_Cards
+  - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
+  - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DemonLermontov
+  - UG_Ch1_DorianGrayWilde
+  - UG_Ch1_FaustGoethe
+  - UG_Ch1_InkwellQuill
+  - UG_Ch1_MacbethShakespeare
+  - UG_Ch1_Notebook
+  - UG_Ch1_ParadiseLostMilton
+  - UG_Ch1_Sofa
+  - UG_Ch1_StartGame
+  - UG_Ch1_Teapot
+  - UG_Ch1_TEST_DaemonAnim
+  - UG_Ch2_DaemonPlaying
+  - UG_Ch2_PortraitMissing
+  - UG_Ch2_StartGame
+  - UG_Ch3_AceOfSpades
+  - UG_Ch3_DaemonBeforePlaying
+  - UG_Ch3_DaemonPlaying
+  - UG_Ch3_StartGame
+  - UG_Ch3_Textbook
+  - Witch
+  assignedIndex: -1
+  assignedID: 0
+  assignedDialogue: 
+  interactionCount: 0
+  alias: 
+  overrideStartNode: -1
+  defaultNPCSprite: {fileID: 0}
+  defaultPlayerSprite: {fileID: 0}
+  targetManager: {fileID: 0}
+  preload: 0
+  notuptodate: 0
+  startp: 0
+  loadtag: 
+  langs: []
+  S_playerDiags: []
+  S_actionNodes: []
+--- !u!114 &828075805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828075803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634612eff91404e48b58794fab8058d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupRelyingOnUs: {fileID: 0}
+--- !u!65 &828075806
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828075803}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.0010611399, y: 0.0024661704, z: 0.00020000008}
+  m_Center: {x: 0.000000014901161, y: 0.00081745547, z: -0.0000000041367683}
 --- !u!1 &837273310
 GameObject:
   m_ObjectHideFlags: 0
@@ -7206,10 +7319,12 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_AceOfSpades
   - UG_Ch1_BigLamp
   - UG_Ch1_Candles
   - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
   - UG_Ch1_DaemonPlaying
   - UG_Ch1_DemonLermontov
   - UG_Ch1_DorianGrayWilde
@@ -7221,8 +7336,17 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch1_TEST_DaemonAnim
+  - UG_Ch2_DaemonPlaying
+  - UG_Ch2_PortraitMissing
+  - UG_Ch2_StartGame
+  - UG_Ch3_AceOfSpades
+  - UG_Ch3_DaemonBeforePlaying
+  - UG_Ch3_DaemonPlaying
+  - UG_Ch3_StartGame
+  - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 19
+  assignedIndex: 21
   assignedID: 8445
   assignedDialogue: UG_Ch1_DemonLermontov
   interactionCount: 0
@@ -9773,8 +9897,15 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch1_TEST_DaemonAnim
+  - UG_Ch2_DaemonPlaying
   - UG_Ch2_PortraitMissing
   - UG_Ch2_StartGame
+  - UG_Ch3_AceOfSpades
+  - UG_Ch3_DaemonBeforePlaying
+  - UG_Ch3_DaemonPlaying
+  - UG_Ch3_StartGame
+  - UG_Ch3_Textbook
   - Witch
   assignedIndex: 22
   assignedID: 95733
