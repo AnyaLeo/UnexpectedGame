@@ -7475,12 +7475,13 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch1_TEST_DaemonAnim
   - UG_Ch2_PortraitMissing
   - UG_Ch2_StartGame
   - UG_Ch3_StartGame
   - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 32
+  assignedIndex: 33
   assignedID: 23947
   assignedDialogue: UG_Ch2_StartGame
   interactionCount: 0
