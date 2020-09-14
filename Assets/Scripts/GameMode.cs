@@ -17,6 +17,10 @@ public class GameMode : MonoBehaviour
     // so we'll have to show it manually for Chapter 1
     public GameObject aceOfSpades;
 
+    public AudioSource ch1_music;
+    public AudioSource ch2_music;
+    public AudioSource ch3_music;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,4 +55,33 @@ public class GameMode : MonoBehaviour
     {
         aceOfSpades.SetActive(true);
     }
+
+    public void setCh1Music(bool shouldPlay)
+    {
+        playLoopedMusic(ch1_music, shouldPlay);
+    }
+
+    public void setCh2Music(bool shouldPlay)
+    {
+        playLoopedMusic(ch2_music, shouldPlay);
+    }
+
+    public void setCh3Music(bool shouldPlay)
+    {
+        playLoopedMusic(ch3_music, shouldPlay);
+    }
+
+    private void playLoopedMusic(AudioSource music, bool shouldPlay)
+    {
+        if (shouldPlay)
+        {
+            music.loop = true;
+            music.Play();
+        }
+        else
+        {
+            music.Stop();
+        }
+    }
+
 }

@@ -7006,6 +7006,9 @@ MonoBehaviour:
   - {fileID: 1527852449}
   - {fileID: 1904074730}
   aceOfSpades: {fileID: 1975460033}
+  ch1_music: {fileID: 1904074737}
+  ch2_music: {fileID: 0}
+  ch3_music: {fileID: 0}
 --- !u!114 &1361777726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7050,8 +7053,13 @@ MonoBehaviour:
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch1_TEST_DaemonAnim
+  - UG_Ch2_DaemonPlaying
   - UG_Ch2_PortraitMissing
   - UG_Ch2_StartGame
+  - UG_Ch3_AceOfSpades
+  - UG_Ch3_DaemonBeforePlaying
+  - UG_Ch3_DaemonPlaying
   - UG_Ch3_StartGame
   - UG_Ch3_Textbook
   - Witch
@@ -7064,92 +7072,12 @@ MonoBehaviour:
   defaultNPCSprite: {fileID: 0}
   defaultPlayerSprite: {fileID: 0}
   targetManager: {fileID: 0}
-  preload: 1
+  preload: 0
   notuptodate: 0
   startp: 0
   loadtag: 
   langs: []
-  S_playerDiags:
-  - commentCount: 1
-    s_comment:
-    - text: Ugh, my head...
-      extraData: ExtraData
-      inputSetIndex: 0
-      outputNodeIndex: 1
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 0
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: I must have had a wild night. It hurts so much.
-      extraData: ExtraData
-      inputSetIndex: 1
-      outputNodeIndex: 2
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 1
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: What is this room? I don't remember getting here.
-      extraData: ExtraData
-      inputSetIndex: 2
-      outputNodeIndex: 3
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 2
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: ...
-      extraData: ExtraData
-      inputSetIndex: 3
-      outputNodeIndex: 4
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 3
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: I don't see a door. How do I get out?
-      extraData: ExtraData
-      inputSetIndex: 4
-      outputNodeIndex: -1
-      outActionIndex: -1
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 4
-    pTag: 
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 1
+  S_playerDiags: []
   S_actionNodes: []
 --- !u!4 &1361777727
 Transform:
@@ -10068,6 +9996,7 @@ GameObject:
   - component: {fileID: 1904074736}
   - component: {fileID: 1904074735}
   - component: {fileID: 1904074734}
+  - component: {fileID: 1904074737}
   m_Layer: 0
   m_Name: portraitanimated
   m_TagString: Untagged
@@ -10204,14 +10133,18 @@ MonoBehaviour:
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
   - UG_Ch1_TEST_DaemonAnim
+  - UG_Ch2_DaemonPlaying
   - UG_Ch2_PortraitMissing
   - UG_Ch2_StartGame
+  - UG_Ch3_AceOfSpades
+  - UG_Ch3_DaemonBeforePlaying
+  - UG_Ch3_DaemonPlaying
   - UG_Ch3_StartGame
   - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 31
-  assignedID: 39533
-  assignedDialogue: UG_Ch1_TEST_DaemonAnim
+  assignedIndex: 20
+  assignedID: 92710
+  assignedDialogue: UG_Ch1_DaemonPlaying
   interactionCount: 0
   alias: 
   overrideStartNode: -1
@@ -10251,6 +10184,102 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 30.359993, y: 42.99022, z: 0.20000525}
   m_Center: {x: -0.0000038146973, y: 0.0000076293945, z: 0}
+--- !u!82 &1904074737
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904074730}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cb27e5e298e462446b4d1b6edce81205, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.45
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1938139489
 PrefabInstance:
   m_ObjectHideFlags: 0
