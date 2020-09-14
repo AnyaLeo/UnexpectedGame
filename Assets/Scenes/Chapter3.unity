@@ -10144,10 +10144,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupRelyingOnUs: {fileID: 668074488}
-  letterContent: 'This is a scary page about stuff.
-
-    TODO: change the prefab
-    so they writing is not fancy cuz textbooks amiright'
+  letterContent: "... The nature of the blessing - as some may choose to refer to
+    it - is yet to be defined and currently remains a subject of speculation. Up
+    until 1801, bearers of the gift were deemed as charlatans and cheaters, until
+    a group of history students in Moscow published the first anthology on the subject.
+    The anthology recounts two views. First one describes how the inexplicable luck
+    comes from God Himself, making his favorite children unbelievably lucky when
+    it comes to playing cards. Second one contradicts the previous view, and questions
+    why luck applies only to games of cards. \u201CPerhaps it is the Devil himself
+    who possesses such a gift, and who gives it freely to his loyal followers.\u201D
+    Notwithstanding the variety of interpretations, the core narrative remains the
+    same, featuring a person with pathological luck in the game of cards who is impossible
+    to outmaneuver in any sort of way. In the following chapter of the book, the
+    reader will find the excerpts  \u2026\r"
   letterPrefab: {fileID: 1015245224261210375, guid: a18e10b9b004e9a41b820c5b4bdee154,
     type: 3}
   canvas: {fileID: 1141108723}
@@ -11209,10 +11218,12 @@ MonoBehaviour:
   - UG_Ch1_DaemonBeforePlaying
   - UG_Ch1_DaemonBeforePlaying_Waiting
   - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DaemonStop
   - UG_Ch1_DemonLermontov
   - UG_Ch1_DorianGrayWilde
   - UG_Ch1_FaustGoethe
   - UG_Ch1_InkwellQuill
+  - UG_Ch1_Key
   - UG_Ch1_MacbethShakespeare
   - UG_Ch1_Notebook
   - UG_Ch1_ParadiseLostMilton
@@ -11226,10 +11237,11 @@ MonoBehaviour:
   - UG_Ch3_AceOfSpades
   - UG_Ch3_DaemonBeforePlaying
   - UG_Ch3_DaemonPlaying
+  - UG_Ch3_Key
   - UG_Ch3_StartGame
   - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 39
+  assignedIndex: 42
   assignedID: 18510
   assignedDialogue: UG_Ch3_Textbook
   interactionCount: 0
