@@ -182,6 +182,13 @@ public class PlayerMovement : MonoBehaviour
                 diariesRead++;
                 dialogueManager.SetNumberOfPagesFound(diariesRead);
                 readable.bAlreadyRead = true;
+
+                // magic number!!
+                if(diariesRead == 5)
+                {
+                    readable = null;
+                    gameMode.changeKeyAnimation();
+                }
             }
         }
     }

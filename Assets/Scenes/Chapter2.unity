@@ -7429,7 +7429,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 837273312}
-  keyPictureAnimations: []
+  keyPictureAnimations:
+  - {fileID: 1527852449}
+  - {fileID: 1904074730}
   aceOfSpades: {fileID: 0}
 --- !u!114 &1361777726
 MonoBehaviour:
@@ -7476,12 +7478,13 @@ MonoBehaviour:
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
   - UG_Ch1_TEST_DaemonAnim
+  - UG_Ch2_DaemonPlaying
   - UG_Ch2_PortraitMissing
   - UG_Ch2_StartGame
   - UG_Ch3_StartGame
   - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 33
+  assignedIndex: 34
   assignedID: 23947
   assignedDialogue: UG_Ch2_StartGame
   interactionCount: 0
@@ -10537,7 +10540,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &1904074731
 Animator:
   serializedVersion: 3
