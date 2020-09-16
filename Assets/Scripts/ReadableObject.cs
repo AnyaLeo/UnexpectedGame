@@ -36,6 +36,7 @@ public class ReadableObject : InteractableObject
 
             letterSpawned.transform.SetParent(canvas.transform, false);
             letterSpawned.transform.localPosition = letterPosition;
+            letterSpawned.transform.SetSiblingIndex(3);
 
             // Set the text content of the letter
             Text letterText = letterSpawned.GetComponentInChildren<Text>();

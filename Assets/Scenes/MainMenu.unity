@@ -2100,12 +2100,13 @@ MonoBehaviour:
 
     <b>C</b> to crouch
 
-
     Choose dialogue options
     with <b>arrow keys.</b>
 
+    Skip through dialogue/letters with <b>Space.</b>
 
-    Skip through dialogue/letters with <b>Space.</b>'
+    <b>Esc</b>
+    to quit/restart the level'
 --- !u!222 &2012098720
 CanvasRenderer:
   m_ObjectHideFlags: 0

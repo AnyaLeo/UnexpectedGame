@@ -39,4 +39,9 @@ public class LoadManager : MonoBehaviour
     {
         StartCoroutine(LoadScene(0));
     }
+
+    public void ReloadCurrentLevel()
+    {
+        StartCoroutine(LoadScene(SceneManager.GetActiveScene().buildIndex));
+    }
 }

@@ -29,6 +29,9 @@ public class PlayerMovement : MonoBehaviour
     public float crouchOffset = 0.5f;
     public float crouchTime = 0.5f;
 
+    public HiddenObject pauseScreen;
+    private bool pauseScreenOn;
+
     /** PRIVATE VARIABLES */
     private Camera playerCamera;
     private InteractableObject focus;
@@ -50,6 +53,8 @@ public class PlayerMovement : MonoBehaviour
         playerCamera = Camera.main;
         SetPromptText("");
 
+        pauseScreenOn = false;
+
         bIsCrouching = false;
         cameraHeight = playerCamera.transform.localPosition.y;
 
@@ -59,6 +64,27 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
+        {
+            if (pauseScreenOn)
+            {
+                pauseScreen.disableObject();
+                Time.timeScale = 1;
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+                pauseScreenOn = false;
+            }
+            // pause the game
+            else
+            {
+                pauseScreen.enableHiddenObject();
+                //Time.timeScale = 0;
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+                pauseScreenOn = true;
+            }
+        }
+
         // Movement is disallowed when we are talking to something
         if (!VD.isActive)
         {

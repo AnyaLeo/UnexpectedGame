@@ -8,6 +8,12 @@ using UnityEngine;
 
 public class PickupObject : InteractableObject
 {
+    // Quick fix [1] for daemon's portrait disappearing
+    // Because the dialogue for the pickup cycles through the 
+    // changing of the key animation
+    public GameMode gameMode;
+    public bool isThirdChapterPickup; 
+
     public bool canBePickedUp { get; set; }
 
     public void Start()
@@ -20,6 +26,13 @@ public class PickupObject : InteractableObject
         if (canBePickedUp)
         {
             gameObject.SetActive(false);
+
+            // Quick fix [1]
+            if (isThirdChapterPickup)
+            {
+                gameMode.changeKeyAnimation();
+            }
         }
+
     }
 }
