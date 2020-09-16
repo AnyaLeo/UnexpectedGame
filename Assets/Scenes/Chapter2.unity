@@ -9809,9 +9809,9 @@ MonoBehaviour:
   - UG_Ch3_StartGame
   - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 28
-  assignedID: 1333
-  assignedDialogue: UG_Ch1_Notebook
+  assignedIndex: 35
+  assignedID: 45079
+  assignedDialogue: UG_Ch2_Notebook
   interactionCount: 0
   alias: 
   overrideStartNode: -1
