@@ -230,6 +230,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupRelyingOnUs: {fileID: 0}
+  gameMode: {fileID: 0}
+  isThirdChapterPickup: 0
 --- !u!114 &499468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9776,23 +9778,38 @@ MonoBehaviour:
   - QuestChartDemo
   - TableDialogue
   - TriggeredDude
+  - UG_Ch1_AceOfSpades
   - UG_Ch1_BigLamp
   - UG_Ch1_Candles
   - UG_Ch1_Cards
   - UG_Ch1_DaemonBeforePlaying
+  - UG_Ch1_DaemonBeforePlaying_Waiting
   - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DaemonStop
   - UG_Ch1_DemonLermontov
   - UG_Ch1_DorianGrayWilde
   - UG_Ch1_FaustGoethe
   - UG_Ch1_InkwellQuill
+  - UG_Ch1_Key
   - UG_Ch1_MacbethShakespeare
   - UG_Ch1_Notebook
   - UG_Ch1_ParadiseLostMilton
   - UG_Ch1_Sofa
   - UG_Ch1_StartGame
   - UG_Ch1_Teapot
+  - UG_Ch1_TEST_DaemonAnim
+  - UG_Ch2_DaemonPlaying
+  - UG_Ch2_Notebook
+  - UG_Ch2_PortraitMissing
+  - UG_Ch2_StartGame
+  - UG_Ch3_AceOfSpades
+  - UG_Ch3_DaemonBeforePlaying
+  - UG_Ch3_DaemonPlaying
+  - UG_Ch3_Key
+  - UG_Ch3_StartGame
+  - UG_Ch3_Textbook
   - Witch
-  assignedIndex: 24
+  assignedIndex: 28
   assignedID: 1333
   assignedDialogue: UG_Ch1_Notebook
   interactionCount: 0
