@@ -30,7 +30,13 @@ public class ReadableObject : InteractableObject
     {
         if (letterPrefab != null)
         {
-            letterSpawned = Instantiate(letterPrefab) as GameObject;
+            GameObject tempLetterSpawned = Instantiate(letterPrefab) as GameObject;
+
+            if (letterSpawned != null)
+            {
+                Destroy(letterSpawned);
+            }
+            letterSpawned = tempLetterSpawned;
 
             Vector3 letterPosition = new Vector3(0f, 0f, 0f);
 

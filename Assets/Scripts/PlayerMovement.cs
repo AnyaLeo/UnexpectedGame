@@ -123,7 +123,7 @@ public class PlayerMovement : MonoBehaviour
         // To continue dialogue, press return
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("next");
+            //Debug.Log("next");
             if (VD.isActive)
             {
                 VD.Next();
