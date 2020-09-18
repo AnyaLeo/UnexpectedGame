@@ -157,6 +157,11 @@ public class PlayerMovement : MonoBehaviour
                 readable.Ch3_stoppedInteracting = false;
             }
         }
+
+        if (diariesRead >= 5)
+        {
+            dialogueManager.SetPagesFoundUI(false);
+        } 
     }
 
     // Used this:
