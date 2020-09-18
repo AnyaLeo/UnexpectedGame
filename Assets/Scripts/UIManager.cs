@@ -177,7 +177,7 @@ public class UIManager : MonoBehaviour
     {
         if (Ch2_pagesFound != null)
         {
-            Debug.Log("Setting pages to active: " + isActive);
+            //Debug.Log("Setting pages to active: " + isActive);
             Ch2_pagesFound.SetActive(isActive);
         }
     }

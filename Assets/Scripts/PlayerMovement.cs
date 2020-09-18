@@ -110,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
         // and reappear when the letter is closed
         if (readable != null)
         {
-            if (readable.isPlayerInteracting)
+            if (readable.isPlayerInteractingBool())
             {
                 dialogueManager.SetPagesFoundUI(false);
             }
@@ -123,10 +123,14 @@ public class PlayerMovement : MonoBehaviour
         // To continue dialogue, press return
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
         {
-            Debug.Log("next");
             if (VD.isActive)
             {
                 VD.Next();
+            }
+
+            if (readable != null /*&& readable.isPlayerInteractingBool()*/)
+            {
+                readable.StopInteracting();
             }
         }
 
@@ -156,6 +160,12 @@ public class PlayerMovement : MonoBehaviour
                 dialogueManager.StartDialogue(dialogue);
                 readable.Ch3_stoppedInteracting = false;
             }
+        }
+
+        // Quick fix for Chapter 2: make the UI disappear
+        if (diariesRead >= 5)
+        {
+            dialogueManager.SetPagesFoundUI(false);
         }
     }
 
@@ -204,19 +214,24 @@ public class PlayerMovement : MonoBehaviour
                 }
             }
 
-            readable = focus.GetComponent<ReadableObject>();
-            if (readable != null && !readable.bAlreadyRead)
+            ReadableObject readableComponent = focus.GetComponent<ReadableObject>();
+            if (readableComponent != null)
             {
-                diariesRead++;
-                dialogueManager.SetNumberOfPagesFound(diariesRead);
-                readable.bAlreadyRead = true;
+                readable = focus.GetComponent<ReadableObject>();
 
-                // magic number!!
-                if(diariesRead == 5)
+                if (!readableComponent.bAlreadyRead)
                 {
-                    readable = null;
-                    gameMode.changeKeyAnimation();
-                    dialogueManager.SetPagesFoundUI(false);
+                    diariesRead++;
+                    dialogueManager.SetNumberOfPagesFound(diariesRead);
+                    readable.bAlreadyRead = true;
+
+                    // magic number!!
+                    if(diariesRead >= 5)
+                    {
+                        //readable = null;
+                        gameMode.changeKeyAnimation();
+                        dialogueManager.SetPagesFoundUI(false);
+                    }
                 }
             }
         }

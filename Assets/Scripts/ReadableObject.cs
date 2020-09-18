@@ -14,7 +14,12 @@ public class ReadableObject : InteractableObject
     public Canvas canvas;
 
     private GameObject letterSpawned;
-    public bool isPlayerInteracting { get; set; }
+    private bool isPlayerInteracting;
+
+    public bool isPlayerInteractingBool()
+    {
+        return isPlayerInteracting;
+    }
 
     public bool Ch3_stoppedInteracting;
 
@@ -30,7 +35,13 @@ public class ReadableObject : InteractableObject
     {
         if (letterPrefab != null)
         {
-            letterSpawned = Instantiate(letterPrefab) as GameObject;
+            GameObject tempLetterSpawned = Instantiate(letterPrefab) as GameObject;
+
+            if (letterSpawned != null)
+            {
+                Destroy(letterSpawned);
+            }
+                letterSpawned = tempLetterSpawned;
 
             Vector3 letterPosition = new Vector3(0f, 0f, 0f);
 
@@ -63,22 +74,26 @@ public class ReadableObject : InteractableObject
         }
     }
 
-    private void StopInteracting()
+    public void StopInteracting()
     {
-        if (isPlayerInteracting)
+        //if (isPlayerInteracting)
+        //{
+        if (letterSpawned != null)
         {
             Destroy(letterSpawned);
+            //letterSpawned = null;
+        }
             isPlayerInteracting = false;
             Ch3_stoppedInteracting = true;
-        }
+        //}
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (isPlayerInteracting && Input.GetKeyDown(KeyCode.Space))
-        {
-            StopInteracting();
-        }
+        //if (isPlayerInteracting && Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    StopInteracting();
+        //}
     }
 }
