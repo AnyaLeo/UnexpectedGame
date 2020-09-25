@@ -4589,10 +4589,12 @@ MonoBehaviour:
   - UG_Ch1_DaemonBeforePlaying
   - UG_Ch1_DaemonBeforePlaying_Waiting
   - UG_Ch1_DaemonPlaying
+  - UG_Ch1_DaemonStop
   - UG_Ch1_DemonLermontov
   - UG_Ch1_DorianGrayWilde
   - UG_Ch1_FaustGoethe
   - UG_Ch1_InkwellQuill
+  - UG_Ch1_Key
   - UG_Ch1_MacbethShakespeare
   - UG_Ch1_Notebook
   - UG_Ch1_ParadiseLostMilton
@@ -4601,11 +4603,13 @@ MonoBehaviour:
   - UG_Ch1_Teapot
   - UG_Ch1_TEST_DaemonAnim
   - UG_Ch2_DaemonPlaying
+  - UG_Ch2_Notebook
   - UG_Ch2_PortraitMissing
   - UG_Ch2_StartGame
   - UG_Ch3_AceOfSpades
   - UG_Ch3_DaemonBeforePlaying
   - UG_Ch3_DaemonPlaying
+  - UG_Ch3_Key
   - UG_Ch3_StartGame
   - UG_Ch3_Textbook
   - Witch
@@ -9792,6 +9796,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Key_Rusty
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5c0e5d1685af33842aa124fa8b2a73da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c0e5d1685af33842aa124fa8b2a73da, type: 3}
